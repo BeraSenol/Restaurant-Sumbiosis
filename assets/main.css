@@ -1,7 +1,7 @@
 /* Default Styles*/
 
 html {
-    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: DM Sans, Helvetica, Arial, sans-serif;
     font-size: 16px;
     word-spacing: 1px;
     -ms-text-size-adjust: 100%;
@@ -31,6 +31,10 @@ p {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 /* Default Styles*/
 
@@ -45,7 +49,8 @@ p {
     --border-color: hsl(0, 0%, 85%);
     /* :root exclusives*/
     --border-radius: 5px;
-    --opacity: 0.8
+    --opacity: 0.8;
+    --transition-speed: 0.3s;
 }
 
 .dark-mode {
@@ -112,5 +117,26 @@ p {
     margin-right: 1rem;
 }
 
+.margin-x-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 
 /* Custom Classes */
+
+
+/* Media Queries */
+
+@font-face {
+    font-family: Cormorant-Garamond;
+    src: url("~/static/fonts/CormorantGaramond.ttf");
+}
+
+@font-face {
+    font-family: DM-Sans;
+    src: url("~/static/fonts/DMSans.ttf");
+}
+
+
+/* Media Queries */

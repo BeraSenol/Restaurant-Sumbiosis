@@ -1,8 +1,9 @@
 <template>
   <div>
-    <Nav/>
+    <NavHeader/>
     <NavCover/>
     <Nuxt />
+    <NavFooter/>
   </div>
 </template>
 

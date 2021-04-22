@@ -20,7 +20,13 @@
 
     <b-navbar-nav>
       <b-navbar-brand>
-        <b-img height="40%" center src="~/static/images/logo-gold.png"></b-img>
+        <b-img
+          height="40%"
+          center
+          src="~/static/images/logo-gold.png"
+          class="logo"
+        >
+        </b-img>
       </b-navbar-brand>
     </b-navbar-nav>
 
@@ -71,15 +77,25 @@ a.nuxt-link-exact-active::before {
   transform: translateY(0rem);
 }
 
+.logo {
+  transition: ease-in-out var(--transition-speed);
+}
+
+.logo:hover {
+  transform: scale(1.25);
+  transition: ease-in-out var(--transition-speed);
+}
+
 .navbar {
   background-color: var(--bg);
   opacity: var(--opacity);
+  border-bottom: 3px var(--gold) solid;
 }
-
 
 a {
   color: var(--gold);
   position: relative;
+  font-size: 1.1rem;
 }
 
 a:link {
@@ -108,6 +124,7 @@ a.nxt-link:not(a.nuxt-link-exact-active)::before {
   position: absolute;
   bottom: -0.5rem;
   border-radius: var(--border-radius);
+  transition: all var(--transition-speed) ease-in-out;
   transform: translateY(1rem);
 }
 
@@ -120,7 +137,7 @@ a.nxt-link:not(a.nuxt-link-exact-active):hover::before {
   position: absolute;
   bottom: -0.5rem;
   border-radius: var(--border-radius);
-  transition: all 0.5s ease-in-out;
+  transition: all var(--transition-speed) ease-in-out;
   transform: translateY(0rem);
 }
 </style>
