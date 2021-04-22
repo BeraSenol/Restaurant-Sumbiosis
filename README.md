@@ -18,3 +18,15 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## i18n  Setup
+
+```bash
+# install dependencies
+$ npm install nuxt-i18n
+
+npm install --save-dev @nuxtjs/color-mode
+buildModules: [
+      '@nuxtjs/color-mode'
+    ],
+```

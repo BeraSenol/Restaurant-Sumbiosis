@@ -1,0 +1,116 @@
+/* Default Styles*/
+
+html {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* Default Styles*/
+
+
+/* Variable Declarations */
+
+:root {
+    --text-color: hsl(200, 100%, 5%);
+    --gold: hsl(50, 30%, 55%);
+    --bg: hsl(45, 10%, 95%);
+    --bg-secondary: hsl(0, 0%, 100%);
+    --border-color: hsl(0, 0%, 85%);
+    /* :root exclusives*/
+    --border-radius: 5px;
+    --opacity: 0.8
+}
+
+.dark-mode {
+    --text-color: hsl(0, 0%, 90%);
+    --gold: hsl(45, 30%, 55%);
+    --bg: hsl(205, 60%, 10%);
+    --bg-secondary: hsl(210, 65%, 10%);
+    --border-color: hsl(205, 60%, 15%);
+}
+
+
+/* Variable Declarations */
+
+
+/* Variable Usage */
+
+body {
+    background-color: var(--bg);
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: var(--text-color);
+}
+
+
+/* Variable Usage */
+
+
+/* Bootstrap-Vue Override */
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-primary);
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+
+/* Bootstrap-Vue Override */
+
+
+/* Custom Classes */
+
+.full-width {
+    width: 100%;
+}
+
+.flx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-x-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Custom Classes */
