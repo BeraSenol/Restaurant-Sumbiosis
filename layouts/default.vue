@@ -1,12 +1,17 @@
 <template>
   <div>
-    <NavHeader/>
-    <NavCover/>
+    <NavHeader />
+    <NavCover />
     <Nuxt />
-    <NavFooter/>
+    <NavFooter />
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  colorMode: 'dark',
+};
+</script>
 
+<style>
 </style>

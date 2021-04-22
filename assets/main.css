@@ -43,8 +43,9 @@ ul {
 
 :root {
     --text-color: hsl(200, 100%, 5%);
-    --gold: hsl(50, 30%, 55%);
-    --bg: hsl(45, 10%, 95%);
+    --text-color-secondary: hsl(200, 100%, 10%);
+    --gold: hsl(45, 50%, 55%);
+    --bg: hsl(45, 20%, 95%);
     --bg-secondary: hsl(0, 0%, 100%);
     --border-color: hsl(0, 0%, 85%);
     /* :root exclusives*/
@@ -55,7 +56,7 @@ ul {
 
 .dark-mode {
     --text-color: hsl(0, 0%, 90%);
-    --gold: hsl(45, 30%, 55%);
+    --gold: hsl(45, 50%, 55%);
     --bg: hsl(205, 60%, 10%);
     --bg-secondary: hsl(210, 65%, 10%);
     --border-color: hsl(205, 60%, 15%);
@@ -117,9 +118,19 @@ p {
     margin-right: 1rem;
 }
 
+.margin-y-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .margin-x-2rem {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.margin-y-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 

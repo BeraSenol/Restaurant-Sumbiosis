@@ -23,7 +23,8 @@
         <li>
           <span>
             <p>
-              <FacebookIcon class="icon" /><a href="https://www.facebook.com/">Facebook</a
+              <FacebookIcon class="icon" /><a href="https://www.facebook.com/"
+                >Facebook</a
               >
             </p>
           </span>
@@ -48,11 +49,61 @@
         </li>
       </ul>
     </b-container>
+    <b-container class="subfooter">
+      <b-row>
+        <b-col class="flx-center">
+          <nuxt-link :to="switchLocalePath('nl')" class="lang"
+            >NL&nbsp;
+          </nuxt-link>
+          /
+          <nuxt-link :to="switchLocalePath('en')" class="lang"
+            >&nbsp;EN
+          </nuxt-link>
+        </b-col>
+        <b-col class="flx-center" cols="8">
+          <a href="#" class="m-r">Disclaimer</a>
+          <a href="#" class="dot m-r">Privacy</a>
+          <a href="#" class="dot">Cookies</a>
+        </b-col>
+        <b-col class="flx-center">
+          <div>
+            <ul class="colorMode">
+              <li
+                v-for="color of colors"
+                :key="color"
+                @click="$colorMode.preference = color"
+                class="color-mode"
+              >
+                <component :is="`icon-${color}`" :class="getClasses(color)" />
+              </li>
+            </ul>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
   </footer>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      colors: ["light", "dark"],
+    };
+  },
+  methods: {
+    getClasses(color) {
+      // Does not set classes on ssr when preference is system (because we don't know the preference until client-side)
+      if (this.$colorMode.unknown) {
+        return {};
+      }
+      return {
+        preferred: color === this.$colorMode.preference,
+        selected: color === this.$colorMode.value,
+      };
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -74,7 +125,7 @@ ul {
   width: 100%;
 }
 
-ul:first-child {
+ul:first-child:not(.colorMode) {
   width: 10%;
 }
 
@@ -83,7 +134,7 @@ li {
   margin-bottom: 0.5rem;
 }
 
-p {
+p:not(.lang) {
   color: var(--text-color);
   font-family: DM Sans, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -102,11 +153,47 @@ p:hover {
   transition: ease-in-out var(--transition-speed);
 }
 
+.colorMode {
+  display: flex;
+  margin: 0;
+}
+
+.color-mode {
+  margin: 0;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  transition: ease-in-out var(--transition-speed);
+}
+
+.color-mode:hover {
+  color: var(--gold);
+  transition: ease-in-out var(--transition-speed);
+}
+
 .footer-container {
   display: flex;
   justify-content: space-around;
   height: 150px;
   margin-top: 3rem;
+}
+.m-r {
+  margin-right: 0.75rem;
+}
+
+.dot::before {
+  background: #475059;
+  display: inline-block;
+  content: "";
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+  margin-top: -0.125rem;
+}
+
+.subfooter {
+  margin-top: 3.5rem;
 }
 
 .icon {
