@@ -8,15 +8,39 @@
       </ul>
       <ul>
         <li><h3>Sumbiosis</h3></li>
-        <li><p>Home</p></li>
-        <li><p>Menu</p></li>
-        <li><p>Our Story</p></li>
+        <li>
+          <nuxt-link :to="localePath('index')">
+            <p>{{ $t("nav.home") }}</p>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="localePath('menu')">
+            <p>{{ $t("nav.menu") }}</p>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="localePath('our_story')">
+            <p>{{ $t("nav.our_story") }}</p>
+          </nuxt-link>
+        </li>
       </ul>
       <ul>
         <li><h3>&nbsp;</h3></li>
-        <li><p>Blog</p></li>
-        <li><p>Contact</p></li>
-        <li><p>Reservation</p></li>
+        <li>
+          <nuxt-link :to="localePath('blog')">
+            <p>{{ $t("nav.blog") }}</p>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="localePath('contact')">
+            <p>{{ $t("nav.contact") }}</p>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="localePath('reservation')">
+            <p>{{ $t("nav.reservation") }}</p>
+          </nuxt-link>
+        </li>
       </ul>
       <ul>
         <li><h3 class="icon">Follow Us</h3></li>
@@ -126,7 +150,7 @@ ul {
 }
 
 ul:first-child:not(.colorMode) {
-  width: 10%;
+  width: 50%;
 }
 
 li {
@@ -199,6 +223,7 @@ p:hover {
 .icon {
   position: relative;
   right: 0.75rem;
+  bottom: 0.2rem;
 }
 
 a {
