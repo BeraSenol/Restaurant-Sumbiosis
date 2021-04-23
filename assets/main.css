@@ -61,7 +61,7 @@ ul {
     --text-color: hsl(0, 0%, 90%);
     --gold: hsl(45, 50%, 55%);
     --bg: hsl(205, 60%, 10%);
-    --bg-secondary: hsl(210, 65%, 10%);
+    --bg-secondary: hsl(205, 60%, 12%);
     --border-color: hsl(205, 60%, 15%);
 }
 
@@ -100,6 +100,34 @@ p {
 
 .navbar-brand {
     margin-right: 0;
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: var(--bg-secondary);
+    border: 0;
+}
+
+.card-img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-footer {
+    background-color: var(--bg);
 }
 
 
