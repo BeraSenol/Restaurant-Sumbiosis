@@ -21,7 +21,7 @@
     <b-navbar-nav>
       <b-navbar-brand>
         <b-img
-          height="40%"
+          height="45%"
           center
           src="~/static/images/logo-gold.png"
           class="logo"
@@ -79,6 +79,7 @@ a.nuxt-link-exact-active::before {
 
 .logo {
   transition: ease-in-out var(--transition-speed);
+  padding-left: 10px;
 }
 
 .logo:hover {

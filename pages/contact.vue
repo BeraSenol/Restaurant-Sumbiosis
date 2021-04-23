@@ -1,5 +1,9 @@
 <template>
-  <p>{{ title }}</p>
+  <LandingSection
+    source="contact-landing.jpg"
+    title="Contact Us"
+    subtitle="Critique is just spicy feedback"
+  />
 </template>
 
 <script>

@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 div {
-    height: 66px;
+    height: 74px;
     background-color: var(--bg);
 }
 </style>

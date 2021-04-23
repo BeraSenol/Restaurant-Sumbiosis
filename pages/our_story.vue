@@ -1,5 +1,9 @@
 <template>
-  <p>{{ title }}</p>
+  <LandingSection
+    source="our-story-landing.jpg"
+    title="Our Story"
+    subtitle="didn't go straightforward at all"
+  />
 </template>
 
 <script>

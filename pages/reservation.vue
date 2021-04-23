@@ -1,5 +1,9 @@
 <template>
-  <p>{{ title }}</p>
+  <LandingSection
+    source="reservation-landing.jpg"
+    title="Reservations"
+    subtitle="Carve your name in our journey"
+  />
 </template>
 
 <script>

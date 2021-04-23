@@ -1,6 +1,6 @@
 <template>
   <main>
-      <b-img src="~/static/pexels-ray-piedra-1565982.jpg" class="full-width"></b-img>
+    <LandingSection source="index-landing.jpg" title="Sumbiosis" subtitle="The art of living together"/>
   </main>
 </template>
 
@@ -19,6 +19,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 </style>

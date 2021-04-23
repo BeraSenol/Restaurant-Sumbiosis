@@ -1,5 +1,9 @@
 <template>
-  <p>{{ title }}</p>
+  <LandingSection
+    source="blog-landing.jpg"
+    title="The Blog"
+    subtitle="Variation is the spice of life"
+  />
 </template>
 
 <script>

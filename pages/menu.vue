@@ -1,5 +1,5 @@
 <template>
-  <p>{{ title }}</p>
+      <LandingSection source="menu-landing.jpg" title="The Menu" subtitle="The sacred texts that summon our nourishments"/>
 </template>
 
 <script>
