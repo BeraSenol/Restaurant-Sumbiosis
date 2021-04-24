@@ -205,7 +205,7 @@ p:hover {
 }
 
 .dot::before {
-  background: #475059;
+  background: var(--gold);;
   display: inline-block;
   content: "";
   width: 0.25rem;

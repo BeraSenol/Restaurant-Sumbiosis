@@ -36,33 +36,17 @@ export default {
     ],
     // Nuxt-i18n config: https://i18n.nuxtjs.org/
     i18n: {
-        locales: ["en", "nl"],
+        // locales: ["en", "nl"],
+        locales: [
+            { code: 'en', iso: 'en-us', file: 'en.js' },
+            { code: 'nl', iso: 'be-nl', file: 'nl.js' }
+        ],
+        lazy: true,
+        langDir: 'assets/lang/',
         defaultLocale: "en",
         strategy: "prefix",
         vueI18n: {
             fallbackLocale: "nl",
-            messages: {
-                en: {
-                    nav: {
-                        home: "Home",
-                        menu: "Menu",
-                        blog: "Blog",
-                        our_story: "Our Story",
-                        contact: "Contact",
-                        reservation: "Reservation"
-                    }
-                },
-                nl: {
-                    nav: {
-                        home: "Home",
-                        menu: "Menu",
-                        blog: "Blog",
-                        our_story: "Ons Verhaal",
-                        contact: "Contact",
-                        reservation: "Reservatie"
-                    }
-                }
-            }
         }
     },
 

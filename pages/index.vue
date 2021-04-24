@@ -1,7 +1,10 @@
 <template>
   <main>
-    <LandingSection source="index-landing.jpg" title="Sumbiosis" subtitle="The art of living together"/>
+    <LandingSection source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
     <GoldenHorizontalRule/>
+    <IndexSeperation title="Menu Highlights"/>
+    <GoldenHorizontalRule/>
+
     <MenuCarousel/>
   </main>
 </template>

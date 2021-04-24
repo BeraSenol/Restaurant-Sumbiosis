@@ -1,8 +1,8 @@
 <template>
   <LandingSection
-    source="contact-landing.jpg"
+    source="contact.jpg"
     title="Contact Us"
-    subtitle="Criticism is just spicy feedback"
+    :subtitle="$t('landing.subtitle.contact')"
   />
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="image-container">
-    <b-img fluid :src="require(`~/static/images/${source}`)" />
+    <b-img fluid :src="require(`~/static/images/landing-section/${source}`)" />
     <div class="text-container dark-radial-overlay full-width">
       <h1>{{title}}</h1>
       <!-- <hr/> -->

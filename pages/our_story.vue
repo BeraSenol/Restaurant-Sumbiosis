@@ -1,8 +1,8 @@
 <template>
   <LandingSection
-    source="our-story-landing.jpg"
+    source="our-story.jpg"
     title="Our Story"
-    subtitle="didn't go straightforward at all"
+    :subtitle="$t('landing.subtitle.our_story')"
   />
 </template>
 

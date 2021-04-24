@@ -1,5 +1,5 @@
 <template>
-      <LandingSection source="menu-landing.jpg" title="The Menu" subtitle="The sacred texts that summon our nourishments"/>
+      <LandingSection source="menu.jpg" title="The Menu" :subtitle="$t('landing.subtitle.menu')"/>
 </template>
 
 <script>

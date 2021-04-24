@@ -42,11 +42,11 @@ ul {
 /* Variable Declarations */
 
 :root {
-    --text-color: hsl(200, 100%, 5%);
+    --text-color: hsl(200, 100%, 15%);
     --text-color-secondary: hsl(200, 100%, 10%);
     --gold: hsl(45, 50%, 55%);
-    --bg: hsl(0, 0%, 100%);
-    --bg-secondary: hsl(0, 0%, 100%);
+    --bg: hsl(0, 0%, 90%);
+    --bg-secondary: hsl(0, 0%, 95%);
     --border-color: hsl(0, 0%, 85%);
     /* :root exclusives*/
     --overlay-25: rgba(0, 0, 0, 0.25);
@@ -55,6 +55,7 @@ ul {
     --border-radius: 5px;
     --opacity: 0.8;
     --transition-speed: 0.3s;
+    --text-shadow: hsl(205, 60%, 10%);
 }
 
 .dark-mode {
@@ -105,7 +106,7 @@ p {
 .carousel-caption {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .card {

@@ -1,8 +1,8 @@
 <template>
   <LandingSection
-    source="blog-landing.jpg"
+    source="blog.jpg"
     title="The Blog"
-    subtitle="Variation is the spice of life"
+    :subtitle="$t('landing.subtitle.blog')"
   />
 </template>
 

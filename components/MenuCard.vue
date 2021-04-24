@@ -1,14 +1,14 @@
 <template>
-  <b-card id="card" :img-src="require(`~/static/images/${source}`)">
+  <b-card id="card" :img-src="require(`~/static/images/menu-items/${source}`)">
     <b-card-title id="title"> {{ title }} </b-card-title>
-    <b-card-subtitle>
+    <b-card-sub-title>
       <h6 id="subtitle">{{ subtitle }}</h6>
-    </b-card-subtitle>
+    </b-card-sub-title>
     <b-card-text id="ingredients">
-      <p><span>Ingredienten: </span>{{ ingredients }}</p>
+      <p><span>Ingrediënten: </span>{{ ingredients }}.</p>
     </b-card-text>
     <b-card-text id="aromas">
-      <p><span>Aromas: </span>{{ aromas }}</p>
+      <p><span>Aroma's: </span>{{ aromas }}.</p>
     </b-card-text>
     <template id="footer" #footer>
       <p>
@@ -44,6 +44,7 @@ export default {
   text-align: left;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  padding-top: 0.3rem;
   font-weight: lighter;
   font-style: italic;
   font-size: 1rem;
