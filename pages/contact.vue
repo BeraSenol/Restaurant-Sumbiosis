@@ -1,7 +1,7 @@
 <template>
   <LandingSection
     source="contact.jpg"
-    title="Contact Us"
+    :title="$t('landing.title.contact')"
     :subtitle="$t('landing.subtitle.contact')"
   />
 </template>

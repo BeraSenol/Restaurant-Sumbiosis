@@ -1,7 +1,8 @@
 <template>
   <LandingSection
     source="reservation.jpg"
-    title="Reservations"
+    :title="$t('landing.title.reservation')"
+
     :subtitle="$t('landing.subtitle.reservation')"
   />
 </template>

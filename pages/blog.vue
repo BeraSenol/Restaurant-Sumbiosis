@@ -1,7 +1,7 @@
 <template>
   <LandingSection
     source="blog.jpg"
-    title="The Blog"
+    :title="$t('landing.title.blog')"
     :subtitle="$t('landing.subtitle.blog')"
   />
 </template>

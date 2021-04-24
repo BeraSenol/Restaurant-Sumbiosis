@@ -5,14 +5,14 @@
       <h6 id="subtitle">{{ subtitle }}</h6>
     </b-card-sub-title>
     <b-card-text id="ingredients">
-      <p><span>Ingrediënten: </span>{{ ingredients }}.</p>
+      <p><span>{{ $t("menu_card.ingredients") }}: </span>{{ ingredients }}.</p>
     </b-card-text>
     <b-card-text id="aromas">
-      <p><span>Aroma's: </span>{{ aromas }}.</p>
+      <p><span>{{ $t("menu_card.aromas") }}: </span>{{ aromas }} {{$t("aroma.salt")}} &amp; {{$t("aroma.pepper")}}.</p>
     </b-card-text>
     <template id="footer" #footer>
       <p>
-        <span>Prijs:</span>
+        <span>{{ $t("menu_card.price") }}:</span>
       </p>
       <p>
         <span>&euro;{{ price }}</span>

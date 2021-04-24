@@ -1,5 +1,9 @@
 <template>
-      <LandingSection source="menu.jpg" title="The Menu" :subtitle="$t('landing.subtitle.menu')"/>
+  <LandingSection
+    source="menu.jpg"
+    :title="$t('landing.title.menu')"
+    :subtitle="$t('landing.subtitle.menu')"
+  />
 </template>
 
 <script>

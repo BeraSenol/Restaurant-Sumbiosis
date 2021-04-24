@@ -2,7 +2,7 @@
   <main>
     <LandingSection source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
     <GoldenHorizontalRule/>
-    <IndexSeperation title="Menu Highlights"/>
+    <IndexSeperation :title="$t('seperation.home.menu')"/>
     <GoldenHorizontalRule/>
 
     <MenuCarousel/>
