@@ -22,7 +22,14 @@ export default {
             our_story: "DIDN'T GO STRAIGHTFORWARD AT ALL",
             contact: "CRITICISM IS JUST SPICY FEEDBACK",
             reservation: "CARVE YOUR NAME IN OUR JOURNEY"
+        },
+        opening_hours: {
+            mon_fry: "Monday - Friday",
+            weekends: "Weekends"
         }
+    },
+    btn: {
+        reservate: "Reservate Now!"
     },
     seperation: {
         home: {

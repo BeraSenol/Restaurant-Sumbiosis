@@ -30,13 +30,10 @@ export default {
 
     fontawesome: {
         icons: {
-            solid: [
-                "faHome"
-            ]
-        },
+            solid: ["faUtensils", "faClock"],
+            regular: ["faClock"]
+        }
     },
-
-
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [

@@ -16,13 +16,20 @@ export default {
             reservation: "Reservaties"
         },
         subtitle: {
-            home: "DE KUST VAN SAMENLEVEN",
+            home: "DE KUNST VAN SAMENLEVEN",
             menu: "GEDEFINIEERD DOOR MOEDER NATUUR",
             blog: "VARIATIE ZIJN DE KRUIDEN VAN HET LEVEN",
             our_story: "VERLIEP NIET VANZELFSPREKEND",
             contact: "KRITISISME IS GEWOON PIKANTE FEEDBACK",
             reservation: "KERF UW NAAM IN ONS VERHAAL"
+        },
+        opening_hours: {
+            mon_fry: "Maandag - Vrijdag",
+            weekends: "Weekenden"
         }
+    },
+    btn: {
+        reservate: "Reserveer Nu!"
     },
     seperation: {
         home: {

@@ -2,11 +2,10 @@
   <main>
     <LandingSectionIndex source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
     <GoldenHorizontalRule/>
-    <IndexSeperation :title="$t('seperation.home.menu')"/>
+    <OurStoryIndex/>
     <GoldenHorizontalRule/>
     <MenuCarousel/>
     <GoldenHorizontalRule/>
-    <IndexSeperation :title="$t('seperation.home.menu')"/>
 
   </main>
 </template>

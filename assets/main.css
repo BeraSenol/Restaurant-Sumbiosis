@@ -45,13 +45,13 @@ ul {
     --text-color: hsl(205, 100%, 10%);
     --text-color-secondary: hsl(205, 100%, 10%);
     --gold: hsl(45, 50%, 55%);
-    --bg: hsl(0, 0%, 95%);
+    --bg: hsl(0, 0%, 90%);
     --bg-secondary: hsl(0, 0%, 100%);
     --border-color: hsl(0, 0%, 85%);
     /* :root exclusives*/
     --overlay-25: rgba(0, 0, 0, 0.25);
     --overlay-50: rgba(0, 0, 0, 0.5);
-    --overlay-80: rgba(0, 0, 0, 0.8);
+    --overlay-90: rgba(0, 0, 0, 0.9);
     --border-radius: 5px;
     --opacity: 0.9;
     --transition-speed: 0.3s;
@@ -152,7 +152,40 @@ p {
 }
 
 .dark-radial-overlay {
-    background-image: radial-gradient(circle, var(--overlay-80), var(--overlay-50));
+    background-image: radial-gradient( circle, var(--overlay-90), var(--overlay-50));
+}
+
+.gold-btn {
+    background-color: var(--bg);
+    border: 2px solid var(--gold);
+    color: var(--gold);
+}
+
+.gold-btn:hover {
+    color: var(--gold);
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--gold);
+}
+
+.gold-btn a {
+    color: var(--gold);
+}
+
+.gold-btn a:link {
+    color: var(--gold);
+}
+
+.gold-btn a:visited {
+    color: var(--gold);
+}
+
+.gold-btn a:hover {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.gold-btn a:active {
+    color: var(--gold);
 }
 
 .margin-x-1rem {
@@ -179,7 +212,7 @@ p {
 /* Custom Classes */
 
 
-/* Media Queries */
+/* Queries */
 
 @font-face {
     font-family: Cormorant-Garamond;
@@ -196,5 +229,10 @@ p {
     src: url("~/static/fonts/GreatVibes.ttf");
 }
 
+@font-face {
+    font-family: Bellefair;
+    src: url("~/static/fonts/Bellefair.ttf");
+}
 
-/* Media Queries */
+
+/* Queries */

@@ -19,15 +19,33 @@
     </b-navbar-nav>
 
     <b-navbar-nav>
+      <ul class="colorMode">
+        <li
+          @click="$colorMode.preference = 'light'"
+          class="color-mode"
+        >
+          <component :is="`icn-${'light'}`" :class="getClasses('light')" />
+        </li>
+      </ul>
       <b-navbar-brand>
         <b-img
-          height="45%"
+          height="45px"
+          width="45px"
           center
           src="~/static/images/logo-gold.png"
           class="logo"
         >
         </b-img>
       </b-navbar-brand>
+      
+      <ul class="colorMode">
+        <li
+          @click="$colorMode.preference = 'dark'"
+          class="color-mode"
+        >
+          <component :is="`icn-${'dark'}`" :class="getClasses('dark') " />
+        </li>
+      </ul>
     </b-navbar-nav>
 
     <b-navbar-nav class="ml-auto">
@@ -57,6 +75,18 @@ export default {
       colors: ["light", "dark"],
     };
   },
+  methods: {
+    getClasses(color) {
+      // Does not set classes on ssr when preference is system (because we don't know the preference until client-side)
+      if (this.$colorMode.unknown) {
+        return {};
+      }
+      return {
+        preferred: color === this.$colorMode.preference,
+        selected: color === this.$colorMode.value,
+      };
+    },
+  },
 };
 </script>
 
@@ -79,7 +109,6 @@ a.nuxt-link-exact-active::before {
 
 .logo {
   transition: ease-in-out var(--transition-speed);
-  padding-left: 10px;
 }
 
 .logo:hover {
@@ -91,7 +120,25 @@ a.nuxt-link-exact-active::before {
   background-color: var(--bg);
   opacity: var(--opacity);
   border-bottom: 3px var(--gold) solid;
+}
 
+.colorMode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-mode {
+  margin: 0;
+  color: var(--gold);
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  transition: ease-in-out var(--transition-speed);
+}
+
+.color-mode:hover {
+  color: var(--gold);
+  transition: ease-in-out var(--transition-speed);
 }
 
 a {
