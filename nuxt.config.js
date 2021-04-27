@@ -26,7 +26,17 @@ export default {
     components: true,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: ["@nuxtjs/color-mode", "@nuxtjs/svg"],
+    buildModules: ["@nuxtjs/color-mode", "@nuxtjs/svg", "@nuxtjs/fontawesome"],
+
+    fontawesome: {
+        icons: {
+            solid: [
+                "faHome"
+            ]
+        },
+    },
+
+
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
@@ -38,19 +48,17 @@ export default {
     i18n: {
         // locales: ["en", "nl"],
         locales: [
-            { code: 'en', iso: 'en-us', file: 'en.js' },
-            { code: 'nl', iso: 'be-nl', file: 'nl.js' }
+            { code: "en", iso: "en-us", file: "en.js" },
+            { code: "nl", iso: "be-nl", file: "nl.js" }
         ],
         lazy: true,
-        langDir: 'assets/lang/',
+        langDir: "assets/lang/",
         defaultLocale: "en",
         strategy: "prefix",
         vueI18n: {
-            fallbackLocale: "nl",
+            fallbackLocale: "nl"
         }
     },
-
-
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {}

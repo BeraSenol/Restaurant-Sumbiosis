@@ -1,11 +1,13 @@
 <template>
   <main>
-    <LandingSection source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
+    <LandingSectionIndex source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
     <GoldenHorizontalRule/>
     <IndexSeperation :title="$t('seperation.home.menu')"/>
     <GoldenHorizontalRule/>
-
     <MenuCarousel/>
+    <GoldenHorizontalRule/>
+    <IndexSeperation :title="$t('seperation.home.menu')"/>
+
   </main>
 </template>
 
@@ -13,7 +15,7 @@
 export default {
   data() {
     return {
-      title: "Home - Sumbiosis",
+      title: "Sumbiosis",
     };
   },
   head() {

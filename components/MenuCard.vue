@@ -8,14 +8,14 @@
       <p><span>{{ $t("menu_card.ingredients") }}: </span>{{ ingredients }}.</p>
     </b-card-text>
     <b-card-text id="aromas">
-      <p><span>{{ $t("menu_card.aromas") }}: </span>{{ aromas }} {{$t("aroma.salt")}} &amp; {{$t("aroma.pepper")}}.</p>
+      <p><span>{{ $t("menu_card.aromas") }}: </span>{{ aromas }},  {{$t("ingredient.salt")}} &amp; {{$t("ingredient.pepper")}}.</p>
     </b-card-text>
     <template id="footer" #footer>
       <p>
         <span>{{ $t("menu_card.price") }}:</span>
       </p>
       <p>
-        <span>&euro;{{ price }}</span>
+        <span>&euro;{{ price }} </span>
       </p>
     </template>
   </b-card>
@@ -44,7 +44,7 @@ export default {
   text-align: left;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-  padding-top: 0.3rem;
+  padding-top: 0.35rem;
   font-weight: lighter;
   font-style: italic;
   font-size: 1rem;

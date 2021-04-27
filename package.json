@@ -9,6 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "bootstrap": "^4.6.0",
     "bootstrap-icons": "^1.4.1",
     "bootstrap-vue": "^2.21.2",
@@ -17,7 +19,10 @@
     "nuxt-i18n": "^6.26.0"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@nuxtjs/color-mode": "^2.0.5",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/svg": "^0.1.12"
   }
 }

@@ -12,7 +12,7 @@ export default {
 hr {
     width: 100%;
     background-color: var(--gold);
-    height: 2px;
+    height: 3px;
     border: 0;
     margin: 0;
     padding: 0;

@@ -91,6 +91,7 @@ a.nuxt-link-exact-active::before {
   background-color: var(--bg);
   opacity: var(--opacity);
   border-bottom: 3px var(--gold) solid;
+
 }
 
 a {
