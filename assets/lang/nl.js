@@ -29,11 +29,13 @@ export default {
         }
     },
     btn: {
-        reservate: "Reserveer Nu!"
+        reservate: "Reserveer Nu",
+        contact: "Contacteer Ons"
     },
     seperation: {
         home: {
-            menu: "Menu Hoogtepunten"
+            menu_title: "Internationaal Menu",
+            menu_subtitle: "Gebracht door ons Internationaal Team"
         }
     },
     countries: {

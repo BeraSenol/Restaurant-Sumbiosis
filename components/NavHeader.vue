@@ -18,7 +18,7 @@
       </b-nav-item>
     </b-navbar-nav>
 
-    <b-navbar-nav>
+    <b-navbar-nav class=" margin-10">
       <ul class="colorMode">
         <li
           @click="$colorMode.preference = 'light'"
@@ -107,15 +107,6 @@ a.nuxt-link-exact-active::before {
   transform: translateY(0rem);
 }
 
-.logo {
-  transition: ease-in-out var(--transition-speed);
-}
-
-.logo:hover {
-  transform: scale(1.25);
-  transition: ease-in-out var(--transition-speed);
-}
-
 .navbar {
   background-color: var(--bg);
   opacity: var(--opacity);
@@ -134,11 +125,16 @@ a.nuxt-link-exact-active::before {
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   transition: ease-in-out var(--transition-speed);
+  cursor: pointer;
 }
 
 .color-mode:hover {
   color: var(--gold);
   transition: ease-in-out var(--transition-speed);
+}
+
+.margin-10 {
+  margin-left: 20px;
 }
 
 a {

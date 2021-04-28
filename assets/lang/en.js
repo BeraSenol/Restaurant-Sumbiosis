@@ -29,11 +29,13 @@ export default {
         }
     },
     btn: {
-        reservate: "Reservate Now!"
+        reservate: "Reservate Now",
+        contact: "Contact Us"
     },
     seperation: {
         home: {
-            menu: "Menu Highlights"
+            menu_title: "International Menu",
+            menu_subtitle: "Brought by our International Team"
         }
     },
     countries: {

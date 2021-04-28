@@ -35,7 +35,7 @@
             <b-btn class="gold-btn"
               ><nuxt-link :to="localePath('reservation')">{{
                 $t("btn.reservate")
-              }}</nuxt-link></b-btn
+              }}!</nuxt-link></b-btn
             >
           </b-col>
         </b-row>
