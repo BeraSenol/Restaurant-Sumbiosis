@@ -76,8 +76,8 @@ ul {
     --text-color: hsl(205, 100%, 10%);
     --text-color-secondary: hsl(205, 100%, 10%);
     --gold: hsl(45, 50%, 55%);
-    --bg: hsl(0, 0%, 93%);
-    --bg-secondary: hsl(0, 0%, 100%);
+    --bg: hsl(0, 0%, 100%);
+    --bg-secondary: hsl(0, 0%, 93%);
     --border-color: hsl(0, 0%, 85%);
 }
 
@@ -116,8 +116,9 @@ p {
 
 /* Bootstrap-Vue Override */
 
-.navbar-light .navbar-nav .nav-link {
-    color: var(--color-primary);
+.navbar-light .navbar-nav .nav-link,
+.navbar-nav:hover .nav-link:hover {
+    color: var(--gold) !important;
 }
 
 .navbar-brand {
@@ -154,6 +155,25 @@ p {
 
 .card-footer {
     background-color: var(--bg);
+}
+
+.dropdown-toggle:hover {
+    color: var(--gold);
+}
+
+.dropdown-menu {
+    background-color: var(--bg);
+    color: var(--gold);
+    border: 1px solid var(--gold);
+}
+
+.dropdown-item {
+    color: var(--gold) !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--bg-secondary);
+    color: var(--gold);
 }
 
 .form-control {

@@ -6,7 +6,13 @@ export default {
         our_story: "Our Story",
         contact: "Contact",
         reservation: "Reservation",
-        follow_us: "Follow Us"
+        follow_us: "Follow Us",
+        lang: "Language",
+        english: "English",
+        dutch: "Dutch",
+        color: "Color",
+        dark: "Dark",
+        light: "Light"
     },
     landing: {
         title: {
