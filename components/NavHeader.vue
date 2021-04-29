@@ -1,6 +1,6 @@
 <template>
   <b-navbar class="navbar" fixed="top">
-    <b-navbar-nav class="mr-auto">
+    <b-navbar-nav class="mr-auto ml-auto nav-width">
       <b-nav-item class="margin-x-1rem">
         <nuxt-link :to="localePath('index')" class="nxt-link">
           {{ $t("nav.home") }}
@@ -18,12 +18,9 @@
       </b-nav-item>
     </b-navbar-nav>
 
-    <b-navbar-nav class=" margin-10">
+    <b-navbar-nav class="mr-auto ml-auto">
       <ul class="colorMode">
-        <li
-          @click="$colorMode.preference = 'light'"
-          class="color-mode"
-        >
+        <li @click="$colorMode.preference = 'light'" class="color-mode">
           <component :is="`icn-${'light'}`" :class="getClasses('light')" />
         </li>
       </ul>
@@ -37,18 +34,15 @@
         >
         </b-img>
       </b-navbar-brand>
-      
+
       <ul class="colorMode">
-        <li
-          @click="$colorMode.preference = 'dark'"
-          class="color-mode"
-        >
-          <component :is="`icn-${'dark'}`" :class="getClasses('dark') " />
+        <li @click="$colorMode.preference = 'dark'" class="color-mode">
+          <component :is="`icn-${'dark'}`" :class="getClasses('dark')" />
         </li>
       </ul>
     </b-navbar-nav>
 
-    <b-navbar-nav class="ml-auto">
+    <b-navbar-nav class="ml-auto mr-auto nav-width">
       <b-nav-item class="margin-x-1rem">
         <nuxt-link :to="localePath('blog')" class="nxt-link">
           {{ $t("nav.blog") }}
@@ -113,6 +107,10 @@ a.nuxt-link-exact-active::before {
   border-bottom: 3px var(--gold) solid;
 }
 
+.nav-width {
+  width: 350px;
+}
+
 .colorMode {
   display: flex;
   justify-content: center;
@@ -131,10 +129,6 @@ a.nuxt-link-exact-active::before {
 .color-mode:hover {
   color: var(--gold);
   transition: ease-in-out var(--transition-speed);
-}
-
-.margin-10 {
-  margin-left: 20px;
 }
 
 a {

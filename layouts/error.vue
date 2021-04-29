@@ -1,13 +1,13 @@
 <template>
-  <h1>error</h1>
+  <div>
+    <NavCover />
+    <h1>error</h1>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

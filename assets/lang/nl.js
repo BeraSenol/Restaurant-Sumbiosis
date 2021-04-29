@@ -5,7 +5,8 @@ export default {
         blog: "Blog",
         our_story: "Ons Verhaal",
         contact: "Contact",
-        reservation: "Reservatie"
+        reservation: "Reservatie",
+        follow_us: "Volg Ons"
     },
     landing: {
         title: {
@@ -154,5 +155,11 @@ export default {
         white_wine: "Witte Wijn",
         yogurt: "Yogurt",
         zucchini: "Courgette"
+    },
+    news_letter: {
+        subscribe: "Schijf u in voor onze nieuwsbrief",
+        body: "Blijf op de hoogte van onze blog artikelen om zo het laatste culinair nieuws, recepten en meer te ontdekken!",
+        email: "Uw Email Adres",
+        btn: "Inschrijven"
     }
 };

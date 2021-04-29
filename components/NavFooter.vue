@@ -1,6 +1,6 @@
 <template>
-  <footer class="full-width">
-    <b-container class="footer-container">
+  <footer>
+    <b-container fluid class="footer-container">
       <ul>
         <li class="margin-x-2rem">
           <b-img height="40%" center src="~/static/images/logo-gold.png" />
@@ -43,21 +43,15 @@
         </li>
       </ul>
       <ul>
-        <li><h3 class="icon">Follow Us</h3></li>
         <li>
-          <span>
-            <p>
-              <FacebookIcon class="icon" /><a href="https://www.facebook.com/"
-                >Facebook</a
-              >
-            </p>
-          </span>
+          <h3>{{ $t("nav.follow_us") }}</h3>
         </li>
         <li>
           <span>
             <p>
-              <InstagramIcon class="icon" /><a href="https://www.instagram.com/"
-                >Instagram
+              <a href="https://www.facebook.com/">
+                <FacebookIcon class="icon" />
+                Facebook
               </a>
             </p>
           </span>
@@ -65,23 +59,33 @@
         <li>
           <span>
             <p>
-              <TwitterIcon class="icon" /><a href="https://twitter.com/"
-                >Twitter</a
-              >
+              <a href="https://www.instagram.com/">
+                <InstagramIcon class="icon" /> Instagram
+              </a>
+            </p>
+          </span>
+        </li>
+        <li>
+          <span>
+            <p>
+              <a href="https://twitter.com/">
+                <TwitterIcon class="icon" />
+                Twitter
+              </a>
             </p>
           </span>
         </li>
       </ul>
     </b-container>
-    <b-container class="subfooter">
+    <b-container fluid class="subfooter">
       <b-row>
         <b-col class="flx-center">
-          <nuxt-link :to="switchLocalePath('nl')" class="lang"
-            >NL&nbsp;
+          <nuxt-link :to="switchLocalePath('nl')" class="lang">
+            NL&nbsp;
           </nuxt-link>
-          /
-          <nuxt-link :to="switchLocalePath('en')" class="lang"
-            >&nbsp;EN
+          <span>/</span>
+          <nuxt-link :to="switchLocalePath('en')" class="lang">
+            &nbsp;EN
           </nuxt-link>
         </b-col>
         <b-col class="flx-center" cols="8">
@@ -168,13 +172,15 @@ p:not(.lang) {
   line-height: 1rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  transition: ease-in-out var(--transition-speed);
+  width: 100%;
   cursor: pointer;
+  transition: var(--transition-color);
 }
 
 p:hover {
   color: var(--gold);
-  transition: ease-in-out var(--transition-speed);
+  transition: var(--transition-color);
+
 }
 
 .colorMode {
@@ -186,12 +192,13 @@ p:hover {
   margin: 0;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
-  transition: ease-in-out var(--transition-speed);
+  cursor: pointer;
+  transition: var(--transition-color);
 }
 
 .color-mode:hover {
   color: var(--gold);
-  transition: ease-in-out var(--transition-speed);
+  transition: var(--transition-color);
 }
 
 .footer-container {
@@ -205,7 +212,7 @@ p:hover {
 }
 
 .dot::before {
-  background: var(--gold);;
+  background: var(--gold);
   display: inline-block;
   content: "";
   width: 0.25rem;
@@ -221,14 +228,18 @@ p:hover {
 }
 
 .icon {
-  position: relative;
-  right: 0.75rem;
-  bottom: 0.2rem;
+  padding-bottom: 0.125rem;
 }
+
+.icon:hover {
+  transition: color 0.3s ease-in-out;
+}
+
 
 a {
   color: var(--text-color);
-  transition: ease-in-out var(--transition-speed);
+  transition: var(--transition-color);
+
 }
 
 a:link {
@@ -242,7 +253,7 @@ a:visited {
 a:hover {
   color: var(--gold);
   text-decoration: none;
-  transition: ease-in-out var(--transition-speed);
+transition: var(--transition-color);
 }
 
 a:active {

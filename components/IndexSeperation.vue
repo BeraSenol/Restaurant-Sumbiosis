@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container class="full-width">
     <b-row>
       <b-col class="flx-center">
         <h2>{{ title }}</h2>
@@ -53,7 +53,6 @@ hr {
 }
 
 div {
-  width: 100%;
   background-color: var(--bg);
 }
 

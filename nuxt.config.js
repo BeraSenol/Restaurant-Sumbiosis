@@ -31,7 +31,8 @@ export default {
     fontawesome: {
         icons: {
             solid: ["faUtensils", "faClock", "faMapMarkedAlt", "faGlobeEurope"],
-            regular: ["faClock", "faEnvelope"]
+            regular: ["faClock", "faEnvelope"],
+            brands: ["faFacebookSquare"]
         }
     },
 

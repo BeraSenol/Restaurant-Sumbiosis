@@ -1,8 +1,8 @@
 <template>
   <div class="news-container">
     <div class="text-container full-width">
-      <h2>Subscribe To Our Newsletter</h2>
-      <p>Keep your newsletter consistent by cooking up recurring topics, updated with new info in each.</p>
+      <h2>{{$t("news_letter.subscribe")}}.</h2>
+      <p>{{$t("news_letter.body")}}</p>
     </div>
     <div class="mail-container full-width">
       <b-input-group id="input-group">
@@ -11,10 +11,10 @@
             <font-awesome-icon id="icon" :icon="['far', 'envelope']"></font-awesome-icon>
           </b-input-group-text>
         </template>
-        <b-form-input id="mail-input" class="bg" placeholder="Your Email Address"></b-form-input>
+        <b-form-input id="mail-input" class="bg" :placeholder="$t('news_letter.email')"></b-form-input>
 
         <template #append>
-          <b-btn class="gold-btn"> Subscribe </b-btn>
+          <b-btn class="gold-btn"> {{$t("news_letter.btn")}} </b-btn>
         </template>
       </b-input-group>
     </div>
@@ -27,8 +27,8 @@ export default {};
 
 <style scoped>
 h2 {
-    font-family: Cormorant-Garamond;
-    font-weight: lighter;
+    font-family: DM-Sans;
+    margin-bottom: 0.25rem;
 }
 
 #icon {
@@ -51,6 +51,7 @@ h2 {
   width: 70%;
   background-color: var(--bg);
   border: 3px solid var(--gold);
+  border-radius: 5px;
 }
 
 .full-width {

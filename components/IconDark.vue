@@ -11,5 +11,11 @@ export default {
 </script>
 
 <style scoped>
+svg {
+  transition: all 0s;
+}
 
+path {
+  transition: all 0s;
+}
 </style>

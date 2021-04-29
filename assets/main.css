@@ -20,13 +20,16 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+* {
+    transition: var(--transition-bg);
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all 0.3s ease-in-out;
 }
 
 p {
@@ -50,7 +53,6 @@ ul {
     --bg: hsl(0, 0%, 93%);
     --bg-secondary: hsl(0, 0%, 100%);
     --border-color: hsl(0, 0%, 85%);
-    /* :root exclusives*/
     --overlay-25: rgba(0, 0, 0, 0.25);
     --overlay-50: rgba(0, 0, 0, 0.5);
     --overlay-90: rgba(0, 0, 0, 0.9);
@@ -58,6 +60,8 @@ ul {
     --opacity: 0.9;
     --transition-speed: 0.3s;
     --text-shadow: hsl(205, 60%, 10%);
+    --transition-bg: background-color 0.3s ease-in-out !important;
+    --transition-color: color 0.3s ease-in-out !important;
 }
 
 .dark-mode {
@@ -66,6 +70,15 @@ ul {
     --bg: hsl(205, 60%, 10%);
     --bg-secondary: hsl(205, 60%, 15%);
     --border-color: hsl(205, 60%, 15%);
+}
+
+.light-mode {
+    --text-color: hsl(205, 100%, 10%);
+    --text-color-secondary: hsl(205, 100%, 10%);
+    --gold: hsl(45, 50%, 55%);
+    --bg: hsl(0, 0%, 93%);
+    --bg-secondary: hsl(0, 0%, 100%);
+    --border-color: hsl(0, 0%, 85%);
 }
 
 
@@ -77,7 +90,12 @@ ul {
 body {
     background-color: var(--bg);
     color: var(--text-color);
-    transition: all 0.3s ease-in-out;
+    transition: var(--transition);
+    overflow-x: hidden;
+}
+
+body:hover {
+    transition: var(--transition);
 }
 
 h1,
@@ -104,6 +122,10 @@ p {
 
 .navbar-brand {
     margin-right: 0;
+}
+
+.btn {
+    transition: var(--transition);
 }
 
 .carousel-caption {
@@ -137,6 +159,7 @@ p {
 .form-control {
     height: auto;
     color: var(--gold);
+    transition: var(--transition);
 }
 
 
@@ -144,6 +167,18 @@ p {
 
 
 /* Custom Classes */
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.color-gold {
+    color: var(--gold);
+}
+
+.color-text {
+    color: var(--text-color);
+}
 
 .full-width {
     width: 100%;

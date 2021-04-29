@@ -5,7 +5,8 @@ export default {
         blog: "Blog",
         our_story: "Our Story",
         contact: "Contact",
-        reservation: "Reservation"
+        reservation: "Reservation",
+        follow_us: "Follow Us"
     },
     landing: {
         title: {
@@ -154,5 +155,16 @@ export default {
         white_wine: "White Wine",
         yogurt: "Yogurt",
         zucchini: "Zucchini"
+    },
+    news_letter: {
+        subscribe: "Subscribe to our newsletter",
+        body: "Keep up to date with our latest blog articles to discover the latest culinary news, recipes and more!",
+        email: "Your Email Address",
+        btn: "Subscribe"
+    },
+    our_story: {
+        our_story: "Our Story",
+        welcome: "Welcome to Sumbiosis",
+        body: ""
     }
 };

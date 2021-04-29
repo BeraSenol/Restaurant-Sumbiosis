@@ -18,25 +18,25 @@
       </div>
       <b-container id="opening-time">
         <b-row>
-          <b-col class="text-center"
-            ><p>{{ $t("landing.opening_hours.mon_fry") }}:</p></b-col
-          >
-          <b-col class="text-center"><p>08:00 - 22:00</p></b-col>
+          <b-col cols="6" class="text-center">
+            <p>{{ $t("landing.opening_hours.mon_fry") }}:</p>
+          </b-col>
+          <b-col cols="6" class="text-center"> <p>08:00 - 22:00</p> </b-col>
         </b-row>
         <b-row>
-          <b-col class="text-center"
-            ><p>{{ $t("landing.opening_hours.weekends") }}:</p></b-col
-          >
-          <b-col class="text-center"><p>12:00 - 02:00</p></b-col>
+          <b-col cols="6" class="text-center">
+            <p>{{ $t("landing.opening_hours.weekends") }}:</p>
+          </b-col>
+          <b-col cols="6" class="text-center"><p>12:00 - 02:00</p></b-col>
         </b-row>
-        
+
         <b-row class="margin-y-1rem">
           <b-col>
-            <b-btn class="gold-btn"
-              ><nuxt-link :to="localePath('reservation')">{{
-                $t("btn.reservate")
-              }}!</nuxt-link></b-btn
-            >
+            <b-btn class="gold-btn">
+              <nuxt-link :to="localePath('reservation')">
+                {{ $t("btn.reservate") }}!
+              </nuxt-link>
+            </b-btn>
           </b-col>
         </b-row>
       </b-container>
@@ -81,7 +81,7 @@ hr {
 }
 
 #opening-time {
-  width: 350px;
+  width: 375px;
 }
 
 .flx {
