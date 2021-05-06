@@ -47,21 +47,17 @@ ul {
 /* Variable Declarations */
 
 :root {
-    --text-color: hsl(205, 100%, 10%);
-    --text-color-secondary: hsl(205, 100%, 10%);
-    --gold: hsl(45, 50%, 55%);
-    --bg: hsl(0, 0%, 93%);
-    --bg-secondary: hsl(0, 0%, 100%);
-    --border-color: hsl(0, 0%, 85%);
     --overlay-25: rgba(0, 0, 0, 0.25);
     --overlay-50: rgba(0, 0, 0, 0.5);
     --overlay-90: rgba(0, 0, 0, 0.9);
     --border-radius: 5px;
+    --card-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.4rem 1.25rem 0 rgba(0, 0, 0, 0.2);
     --opacity: 0.9;
     --transition-speed: 0.3s;
     --text-shadow: hsl(205, 60%, 10%);
     --transition-bg: background-color 0.3s ease-in-out !important;
     --transition-color: color 0.3s ease-in-out !important;
+    --transition-display: display 0.3s ease-in-out !important;
 }
 
 .dark-mode {
@@ -88,7 +84,7 @@ ul {
 /* Variable Usage */
 
 body {
-    background-color: var(--bg);
+    background-color: var(--bg) !important;
     color: var(--text-color);
     transition: var(--transition);
     overflow-x: hidden;
@@ -123,6 +119,10 @@ p {
 
 .navbar-brand {
     margin-right: 0;
+}
+
+.bs-popover-left>.arrow::after {
+    border-left-color: var(--gold);
 }
 
 .btn {
@@ -180,6 +180,25 @@ p {
     height: auto;
     color: var(--gold);
     transition: var(--transition);
+}
+
+.img-thumbnail {
+    background-color: var(--gold);
+    border: 1px solid var(--gold);
+}
+
+.popover {
+    background-color: var(--bg);
+}
+
+.popover-header {
+    background-color: var(--bg);
+    color: var(--gold);
+    border-bottom: 1px solid var(--gold);
+}
+
+.popover-body {
+    color: var(--text-color);
 }
 
 

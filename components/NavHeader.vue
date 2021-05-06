@@ -1,16 +1,6 @@
 <template>
   <b-navbar class="navbar" fixed="top">
     <b-navbar-nav>
-      <!-- <b-nav-item>
-        <div class="flx-center">
-          <div @click="$colorMode.preference = 'light'"  class="color-mode">
-            <component :is="`icn-${'light'}`" :class="getClasses('light')" v-if="$colorMode.value = 'dark'"/>
-          </div>
-          <div @click="$colorMode.preference = 'dark'" v-if="$colorMode.value = 'light'" class="color-mode">
-            <component :is="`icn-${'dark'}`" :class="getClasses('dark')" />
-          </div>
-        </div>
-      </b-nav-item> -->
       <b-nav-item-dropdown id="color-dropdown" :text="$t('nav.color')" left>
         <b-dropdown-item @click="$colorMode.preference = 'dark'">
           {{ $t("nav.dark") }}

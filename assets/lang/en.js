@@ -171,6 +171,6 @@ export default {
     our_story: {
         our_story: "Our Story",
         welcome: "Welcome to Sumbiosis",
-        body: ""
+        body: "Symbiosis is the scientific term for long-term biological interactions between organisms. The best example would be a flower's pollen and a honey bee! We strive to harvest everything what nature has to offer and serve the best possible ingredients on your plate."
     }
 };

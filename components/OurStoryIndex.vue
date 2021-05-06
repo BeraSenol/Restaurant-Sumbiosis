@@ -1,14 +1,9 @@
 <template>
-  <div class="our-story-container">
-    <NewsLetter id="news" />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="welcome-container">
+  <b-container fluid class="our-story-container">
+    <b-container class="welcome-container">
       <b-row>
         <b-col>
-          <h3>Our Story</h3>
+          <h3 class="mt-3">Our Story</h3>
         </b-col>
       </b-row>
 
@@ -33,29 +28,22 @@
       <b-row>
         <b-col>
           <h2 class="text-center">
-            <span class="font-cormorant">
-              <a class="wiki-ref" href="https://en.wikipedia.org/wiki/Symbiosis"
-                >Symbiosis</a
-              >
-            </span>
-            <span class="noun">noun</span>
+            <span class="font-cormorant" title="Definition:"> Symbiosis </span>
+            
           </h2>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
-          <h4 class="text-center mb-2 font-cormorant">
+          <h4 class="text-center mb-3 font-cormorant">
             symbíōsis | sym·​bi·​o·​sis
           </h4>
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center">
-        <b-col cols="5">
-          <p class="text-center">
-            Seebreeze was the first restaurant to open in Egypt, the resturant
-            was designed with the history in mind we have created a soft
-            industrial dining room, combined with an open kitchen, coffee take
-            out bar and alovely awesome on site coffee roastery.
+        <b-col cols="8">
+          <p class="text-center my-1">
+            {{$t("our_story.body")}}
           </p>
         </b-col>
       </b-row>
@@ -97,7 +85,7 @@
         </b-row>
         <b-row>
           <b-col class="text-center">
-            <b-btn class="gold-btn margin-y-2rem">
+            <b-btn class="gold-btn my-4">
               <nuxt-link :to="localePath('contact')">
                 {{ $t("btn.contact") }}!
               </nuxt-link>
@@ -105,8 +93,24 @@
           </b-col>
         </b-row>
       </b-container>
-    </div>
-  </div>
+    </b-container>
+    <b-container class="image-container">
+      <b-img
+        fluid
+        width="350px"
+        thumbnail
+        id="img-upper"
+        src="~/static/images/welcome-upper.jpg"
+      ></b-img>
+      <b-img
+        fluid
+        width="350px"
+        thumbnail
+        id="img-lower"
+        src="~/static/images/welcome-lower.jpg"
+      ></b-img>
+    </b-container>
+  </b-container>
 </template>
 
 <script>
@@ -142,6 +146,19 @@ h4 {
   top: calc(-130px / 2);
 }
 
+#img-upper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#img-lower {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .text-r {
   text-align: right;
 }
@@ -154,7 +171,29 @@ h4 {
 }
 .our-story-container {
   background-color: var(--bg-secondary);
+  min-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  border: 2px solid var(--gold);
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  background-color: var(--bg);
+  border-radius: 5px;
+  height: 600px;
+  box-shadow: var(--card-shadow);
+}
+
+.image-container {
   position: relative;
+
+  height: 600px;
+  margin-right: 4rem;
+  margin-left: 2rem;
 }
 
 .font-cormorant {

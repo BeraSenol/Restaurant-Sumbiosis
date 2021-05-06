@@ -167,5 +167,10 @@ export default {
         body: "Blijf op de hoogte van onze blog artikelen om zo het laatste culinair nieuws, recepten en meer te ontdekken!",
         email: "Uw Email Adres",
         btn: "Inschrijven"
+    },
+    our_story: {
+        our_story: "Ons Verhaal",
+        welcome: "Welkom bij Sumbiosis",
+        body: "Symbiosis is de wetenschappelijke benaming voor langdurige biologische interacties tussen organismen. Het beste voorbeeld zou zijn een bij en een bloem! Wij streven om alles wat de natuur te bieden heeft te oogsten en de beste ingredienten op uw bord serveren."
     }
 };
