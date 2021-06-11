@@ -29,11 +29,11 @@ export default {
 
 <style scoped>
 #card {
-  max-height: 450px;
+  max-height: 500px;
 }
 
 #title {
-  padding-top: 0.5rem;
+  padding-top: 0.75rem;
   text-align: left;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -44,7 +44,7 @@ export default {
   text-align: left;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-  padding-top: 0.35rem;
+  padding-top: 0.5rem;
   font-weight: lighter;
   font-style: italic;
   font-size: 1rem;
@@ -53,14 +53,14 @@ export default {
 }
 
 #ingredients {
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   text-align: left;
 }
 
 #aromas {
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 

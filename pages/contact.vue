@@ -1,9 +1,16 @@
 <template>
-  <LandingSection
-    source="contact.jpg"
-    :title="$t('landing.title.contact')"
-    :subtitle="$t('landing.subtitle.contact')"
-  />
+  <div>
+    <LandingSection
+      source="contact.jpg"
+      :title="$t('landing.title.contact')"
+      :subtitle="$t('landing.subtitle.contact')"
+    />
+    <GoldenHorizontalRule/>
+    <Contact />
+    <GoldenHorizontalRule/>
+    <GoldenHorizontalRule/>
+
+  </div>
 </template>
 
 <script>

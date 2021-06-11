@@ -29,7 +29,6 @@
         <b-col>
           <h2 class="text-center">
             <span class="font-cormorant" title="Definition:"> Symbiosis </span>
-            
           </h2>
         </b-col>
       </b-row>
@@ -43,7 +42,7 @@
       <b-row class="justify-content-md-center">
         <b-col cols="8">
           <p class="text-center my-1">
-            {{$t("our_story.body")}}
+            {{ $t("our_story.body") }}
           </p>
         </b-col>
       </b-row>
@@ -178,7 +177,7 @@ h4 {
 }
 
 .welcome-container {
-  border: 2px solid var(--gold);
+  border: 4px solid var(--gold);
   padding: 1rem;
   margin-left: 4rem;
   margin-right: 2rem;

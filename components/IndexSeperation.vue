@@ -25,7 +25,7 @@
     </b-row>
     <b-row>
       <b-col>
-        <p class="flx-center">
+        <p class="flx-center mb-3">
           <nuxt-link :to="localePath('blog')">Check out</nuxt-link>&nbsp;more
           special recipes or special dishes on our blog.
         </p>

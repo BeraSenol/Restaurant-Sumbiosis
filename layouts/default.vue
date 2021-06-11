@@ -3,7 +3,9 @@
     <NavHeader />
     <!-- <NavCover /> -->
     <Nuxt />
+    <GoogleMaps/>
     <NavFooter />
+    
   </div>
 </template>
 

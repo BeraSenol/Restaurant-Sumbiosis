@@ -4,6 +4,7 @@ html {
     font-family: DM Sans, Helvetica, Arial, sans-serif;
     font-size: 16px;
     word-spacing: 1px;
+    line-height: 0;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
@@ -34,10 +35,15 @@ html::-webkit-scrollbar {
 
 p {
     margin: 0;
+    line-height: 1.5;
 }
 
 ul {
     list-style-type: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 
@@ -88,6 +94,11 @@ body {
     color: var(--text-color);
     transition: var(--transition);
     overflow-x: hidden;
+    line-height: 0;
+}
+
+iframe {
+    line-height: 0;
 }
 
 body:hover {
@@ -104,6 +115,7 @@ p {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    line-height: auto;
 }
 
 
@@ -132,7 +144,7 @@ p {
 .carousel-caption {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
 }
 
 .card {
@@ -169,6 +181,7 @@ p {
 
 .dropdown-item {
     color: var(--gold) !important;
+    line-height: 1;
 }
 
 .dropdown-item:hover {

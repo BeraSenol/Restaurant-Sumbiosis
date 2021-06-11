@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-carousel :interval="99999" controls indicators background="var(--bg)">
+    <b-carousel :interval="10000" controls indicators background="var(--bg)">
       <b-carousel-slide
         img-src="~/static/images/menu-carousel/index-belgium.jpg"
       >
