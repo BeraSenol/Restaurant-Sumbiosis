@@ -7,6 +7,8 @@
     <IndexSeperation :title="$t('seperation.home.menu_title')" :subtitle="$t('seperation.home.menu_subtitle')"/>
     <MenuCarousel/>
     <GoldenHorizontalRule/>
+    <Contact />
+    <GoldenHorizontalRule/>
     <BlogIndex/>
   </main>
 </template>

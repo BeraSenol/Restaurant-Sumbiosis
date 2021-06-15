@@ -28,8 +28,8 @@
         </li>
       </ul>
     </div>
-    <form class="form" name="contact-form" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact-form" netlify-honeypot="bot-field">
+    <form class="form" name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact-form" >
         <b-row>
             <b-col>
                 <input type="text" name="name" id="name" placeholder=" Your Name">

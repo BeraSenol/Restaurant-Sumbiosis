@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <NewsLetter id="news"/>
     <b-container fluid class="footer-container">
       <ul>
         <li class="margin-x-2rem">
@@ -139,8 +140,8 @@ footer {
   background-color: var(--bg);
   height: 300px;
   border-top: 3px var(--gold) solid;
-  padding-left: 10%;
-  padding-right: 10%;
+  
+  position: relative;
 }
 h3 {
   font-family: Cormorant-Garamond;
@@ -181,6 +182,12 @@ p:hover {
   color: var(--gold);
   transition: var(--transition-color);
 
+}
+
+#news {
+  position: absolute;
+  left: 15%;
+  top: -80px;
 }
 
 .colorMode {
