@@ -2,11 +2,7 @@
   <footer>
     <NewsLetter id="news"/>
     <b-container fluid class="footer-container">
-      <ul>
-        <li class="margin-x-2rem">
-          <b-img height="40%" center src="~/static/images/logo-gold.png" />
-        </li>
-      </ul>
+      
       <ul>
         <li><h3>Sumbiosis</h3></li>
         <li>
@@ -26,7 +22,9 @@
         </li>
       </ul>
       <ul>
-        <li><h3>&nbsp;</h3></li>
+        <li>
+          <b-img height="40%" src="~/static/images/logo-gold.png" />
+        </li>
         <li>
           <nuxt-link :to="localePath('blog')">
             <p>{{ $t("nav.blog") }}</p>
@@ -78,7 +76,7 @@
         </li>
       </ul>
     </b-container>
-    <b-container fluid class="subfooter">
+    <b-container fluid class="subfooter pb-3">
       <b-row>
         <b-col class="flx-center">
           <nuxt-link :to="switchLocalePath('nl')" class="lang">
@@ -89,7 +87,7 @@
             &nbsp;EN
           </nuxt-link>
         </b-col>
-        <b-col class="flx-center" cols="8">
+        <b-col class="flx-center" cols="4">
           <a href="#" class="m-r">Disclaimer</a>
           <a href="#" class="dot m-r">Privacy</a>
           <a href="#" class="dot">Cookies</a>
@@ -140,7 +138,6 @@ footer {
   background-color: var(--bg);
   height: 300px;
   border-top: 3px var(--gold) solid;
-  
   position: relative;
 }
 h3 {
@@ -152,11 +149,10 @@ h3 {
 
 ul {
   width: 100%;
+  text-align: center;
 }
 
-ul:first-child:not(.colorMode) {
-  width: 50%;
-}
+
 
 li {
   margin-top: 0.5rem;
@@ -186,7 +182,7 @@ p:hover {
 
 #news {
   position: absolute;
-  left: 15%;
+  left: 20%;
   top: -80px;
 }
 
@@ -210,9 +206,9 @@ p:hover {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
-  height: 150px;
+  justify-content: center;
   margin-top: 3rem;
+  max-width: 100%;
 }
 .m-r {
   margin-right: 0.75rem;
@@ -230,9 +226,6 @@ p:hover {
   margin-top: -0.125rem;
 }
 
-.subfooter {
-  margin-top: 3.5rem;
-}
 
 .icon {
   padding-bottom: 0.125rem;

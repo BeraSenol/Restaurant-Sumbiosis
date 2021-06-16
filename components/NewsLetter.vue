@@ -19,12 +19,13 @@
               </font-awesome-icon>
             </b-input-group-text>
           </template>
-          <b-form-input
+          <!-- <b-form-input
             id="mail-input"
             class="bg"
             :placeholder="$t('news_letter.email')"
           >
-          </b-form-input>
+          </b-form-input> -->
+          <input type="text" name="email" id="subscription" placeholder="Your Email Address">
 
           <template #append>
             <b-btn class="gold-btn"> {{ $t("news_letter.btn") }} </b-btn>
@@ -50,6 +51,14 @@ h2 {
   font-size: 1.2rem;
 }
 
+#subscription {
+  background-color: var(--bg);
+  border: 1px solid var(--gold);
+  text-align: center;
+  color: var(--gold);
+  width: 200px;
+}
+
 .bg {
   background-color: var(--bg);
   border-color: var(--gold);
@@ -57,15 +66,21 @@ h2 {
 
 .mail-input {
   color: var(--gold);
+  outline: none;
 }
 
 .news-container {
   display: flex;
   height: 120px;
-  width: 70%;
+  width: 60%;
   background-color: var(--bg);
   border: 3px solid var(--gold);
   border-radius: 5px;
+}
+
+.mail-container {
+  display: flex;
+  align-items: center;
 }
 
 .full-width {
