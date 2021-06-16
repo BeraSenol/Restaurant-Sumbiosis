@@ -28,7 +28,7 @@
           <input type="text" name="email" id="subscription" placeholder="Your Email Address">
 
           <template #append>
-            <b-btn class="gold-btn"> {{ $t("news_letter.btn") }} </b-btn>
+            <input type="submit" class="gold-btn" :value="$t('news_letter.btn')"> 
           </template>
         </b-input-group>
       </form>
@@ -57,6 +57,16 @@ h2 {
   text-align: center;
   color: var(--gold);
   width: 200px;
+}
+
+#subscription::placeholder {
+  color: var(--text-color);
+}
+
+.gold-btn {
+  padding: 0.5rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .bg {

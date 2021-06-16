@@ -1,8 +1,7 @@
 <template>
   <footer>
-    <NewsLetter id="news"/>
-    <b-container fluid class="footer-container">
-      
+    <NewsLetter id="news" />
+    <b-container fluid class="footer-container ">
       <ul>
         <li><h3>Sumbiosis</h3></li>
         <li>
@@ -152,8 +151,6 @@ ul {
   text-align: center;
 }
 
-
-
 li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -177,7 +174,6 @@ p:not(.lang) {
 p:hover {
   color: var(--gold);
   transition: var(--transition-color);
-
 }
 
 #news {
@@ -226,7 +222,6 @@ p:hover {
   margin-top: -0.125rem;
 }
 
-
 .icon {
   padding-bottom: 0.125rem;
 }
@@ -235,11 +230,9 @@ p:hover {
   transition: color 0.3s ease-in-out;
 }
 
-
 a {
   color: var(--text-color);
   transition: var(--transition-color);
-
 }
 
 a:link {
@@ -253,7 +246,7 @@ a:visited {
 a:hover {
   color: var(--gold);
   text-decoration: none;
-transition: var(--transition-color);
+  transition: var(--transition-color);
 }
 
 a:active {

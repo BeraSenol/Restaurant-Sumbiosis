@@ -36,7 +36,7 @@ export default {
         }
     },
     btn: {
-        reservate: "Reservate Now",
+        reservate: "Reserve Now",
         contact: "Contact Us"
     },
     seperation: {

@@ -1,10 +1,12 @@
 <template>
-  <LandingSection
-    source="reservation.jpg"
-    :title="$t('landing.title.reservation')"
-
-    :subtitle="$t('landing.subtitle.reservation')"
-  />
+  <div>
+    <LandingSection
+      source="reservation.jpg"
+      :title="$t('landing.title.reservation')"
+      :subtitle="$t('landing.subtitle.reservation')"
+    />
+    <Reserve />
+  </div>
 </template>
 
 <script>
