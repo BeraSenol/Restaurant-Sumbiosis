@@ -33,9 +33,39 @@
         <b-col>
           <input
             type="text"
-            name="subject"
-            id="subject"
-            placeholder=" Subject"
+            name="contact-name"
+            id="contact-name"
+            placeholder="Contact Name"
+          />
+        </b-col>
+        <b-col>
+          <input
+            type="number"
+            name="guest-count"
+            id="guest-count"
+            placeholder="Number of Guests"
+            min="1"
+            max="12"
+          />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Contact Email"
+          />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <input
+            type="phone"
+            name="phone"
+            id="phone"
+            placeholder="Contact Phone Number"
           />
         </b-col>
       </b-row>
@@ -50,7 +80,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col>
+        <b-col class="flx-center">
           <input class="mt-3 px-3" type="submit" id="submit" value="Submit" />
         </b-col>
       </b-row>
@@ -59,10 +89,19 @@
 </template>
 
 <script>
-export default {};
+import index from "../pages/index.vue";
+export default {
+  components: { index },
+};
 </script>
 
 <style scoped>
+form {
+  background-color: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
 input:not(input[type="submit"]) {
   width: 100%;
   height: 50px;
@@ -70,13 +109,28 @@ input:not(input[type="submit"]) {
   border-bottom: 2px solid var(--gold);
   background-color: var(--bg);
   color: white;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
 }
+
+input:not(input[type="submit"]):hover::placeholder {
+  color: var(--gold);
+  transition: 0.5s ease-in-out all;
+}
+
+input:not(input[type="submit"])::placeholder {
+  color: white;
+  transition: 0.5s ease-in-out all;
+}
+
 #submit {
   height: 50px;
   border: 2px solid var(--gold);
   background-color: var(--bg);
   border-radius: 5px;
   color: var(--gold);
+  margin: 0.5rem;
 }
 
 #contact-container {
@@ -87,7 +141,7 @@ input:not(input[type="submit"]) {
 }
 
 #message {
-  height: 300px;
+  height: 250px;
 }
 
 .image {

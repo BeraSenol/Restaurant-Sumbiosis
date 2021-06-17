@@ -5,7 +5,10 @@
       :title="$t('landing.title.reservation')"
       :subtitle="$t('landing.subtitle.reservation')"
     />
+    <GoldenHorizontalRule/>
     <Reserve />
+    <GoldenHorizontalRule/>
+
   </div>
 </template>
 
