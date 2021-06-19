@@ -3,19 +3,19 @@
     <div class="contact-info">
       <ul>
         <li>
-          <h3 class="mb-5 mt-2">Contact Information</h3>
+          <h3 class="mb-5 mt-2">{{ $t('contact.info') }}</h3>
         </li>
         <li>
           <p class="mb-5">
-            Address:
+            {{$t('contact.address')}}:
             <a class="info" href="https://goo.gl/maps/TftP3TcZPnHNjV8F6">
-              Elfde-Liniestraat 24, Hasselt 3500
+              Elfde-Liniestraat 24, 3500 Hasselt
             </a>
           </p>
         </li>
         <li>
           <p class="mb-5">
-            Phone: <a class="info" href="tel:011775555">+32 11 77 55 55</a>
+            {{$t('contact.phone')}}: <a class="info" href="tel:011775555">+32 11 77 55 55</a>
           </p>
         </li>
         <li>
@@ -38,14 +38,14 @@
       <input type="hidden" name="form-name" value="reservation-form" />
       <b-row>
         <b-col>
-          <input type="text" name="name" id="name" placeholder=" Your Name" />
+          <input type="text" name="name" id="name" :placeholder="$t('contact.name')" />
         </b-col>
         <b-col>
           <input
             type="text"
             name="email"
             id="email"
-            placeholder=" Your Email"
+            :placeholder="$t('contact.email')"
           />
         </b-col>
       </b-row>
@@ -55,7 +55,7 @@
             type="text"
             name="subject"
             id="subject"
-            placeholder=" Subject"
+            :placeholder="$t('contact.subject')"
           />
         </b-col>
       </b-row>
@@ -65,13 +65,13 @@
             type="text"
             name="message"
             id="message"
-            placeholder=" Message"
+            :placeholder="$t('contact.message')"
           />
         </b-col>
       </b-row>
       <b-row>
         <b-col class="flx-center">
-          <input class="mt-3 px-3" type="submit" id="submit" value="Submit" />
+          <input class="mt-3 px-3" type="submit" id="submit" :value="$t('contact.submit')" />
         </b-col>
       </b-row>
     </form>
@@ -97,8 +97,9 @@ input:not(input[type="submit"]) {
   background-color: var(--bg);
   color: white;
   margin: 0.5rem;
-  text-align: center;
   border-radius: 0.25rem;
+  padding: 1rem;
+
 }
 
 input:not(input[type="submit"]):hover::placeholder {
@@ -110,12 +111,16 @@ input:not(input[type="submit"])::placeholder {
   color: white;
   transition: 0.5s ease-in-out all;
 }
+
+.row {
+  margin-right: 0;
+}
 #submit {
   height: 50px;
   border: 2px solid var(--gold);
   background-color: var(--bg);
   border-radius: 5px;
-  color: var(--gold);
+  color: var(--text-color);
 }
 
 #contact-container {
@@ -131,6 +136,11 @@ input:not(input[type="submit"])::placeholder {
 
 .contact-info {
   width: 30%;
+  background-color: var(--bg-secondary);
+  margin-right: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
 }
 
 .form {

@@ -178,7 +178,7 @@ p:hover {
 
 #news {
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: -80px;
 }
 

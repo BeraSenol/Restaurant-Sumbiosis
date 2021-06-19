@@ -25,7 +25,7 @@
             :placeholder="$t('news_letter.email')"
           >
           </b-form-input> -->
-          <input type="text" name="email" id="subscription" placeholder="Your Email Address">
+          <input type="text" name="email" id="subscription" :placeholder="$t('news_letter.email')">
 
           <template #append>
             <input type="submit" class="gold-btn" :value="$t('news_letter.btn')"> 
@@ -82,7 +82,7 @@ h2 {
 .news-container {
   display: flex;
   height: 120px;
-  width: 60%;
+  width: 70%;
   background-color: var(--bg);
   border: 3px solid var(--gold);
   border-radius: 5px;

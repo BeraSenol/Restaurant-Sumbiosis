@@ -12,22 +12,7 @@
     >
       <input type="hidden" name="form-name" value="contact-form" />
       <b-row>
-        <b-col>
-          <input
-            type="text"
-            name="event-type"
-            id="event-type"
-            placeholder="Event Type"
-          />
-        </b-col>
-        <b-col>
-          <input
-            type="text"
-            name="event-date"
-            id="event-date"
-            placeholder="Event Date"
-          />
-        </b-col>
+        <b-form-datepicker id="example-datepicker" :placeholder="$t('reserve.select_date')" class="ml-4 mr-2 mb-2 p-2"></b-form-datepicker>
       </b-row>
       <b-row>
         <b-col>
@@ -35,7 +20,7 @@
             type="text"
             name="contact-name"
             id="contact-name"
-            placeholder="Contact Name"
+            :placeholder="$t('reserve.name')"
           />
         </b-col>
         <b-col>
@@ -43,7 +28,7 @@
             type="number"
             name="guest-count"
             id="guest-count"
-            placeholder="Number of Guests"
+            :placeholder="$t('reserve.guests')"
             min="1"
             max="12"
           />
@@ -55,7 +40,7 @@
             type="email"
             name="email"
             id="email"
-            placeholder="Contact Email"
+            :placeholder="$t('reserve.email')"
           />
         </b-col>
       </b-row>
@@ -65,7 +50,7 @@
             type="phone"
             name="phone"
             id="phone"
-            placeholder="Contact Phone Number"
+            :placeholder="$t('reserve.phone')"
           />
         </b-col>
       </b-row>
@@ -75,13 +60,13 @@
             type="text"
             name="message"
             id="message"
-            placeholder=" Message"
+           :placeholder="$t('reserve.message')"
           />
         </b-col>
       </b-row>
       <b-row>
         <b-col class="flx-center">
-          <input class="mt-3 px-3" type="submit" id="submit" value="Submit" />
+          <input class="mt-3 px-3" type="submit" id="submit" :value="$t('reserve.submit')" />
         </b-col>
       </b-row>
     </form>
@@ -100,6 +85,15 @@ form {
   background-color: var(--bg-secondary);
   padding: 1rem;
   border-radius: 0.25rem;
+  width: 45%;
+}
+
+#example-datepicker {
+  border: 0;
+}
+
+.row {
+  margin-right: 0;
 }
 
 input:not(input[type="submit"]) {
@@ -110,8 +104,8 @@ input:not(input[type="submit"]) {
   background-color: var(--bg);
   color: white;
   margin: 0.5rem;
-  text-align: center;
   border-radius: 0.25rem;
+  padding: 1rem;
 }
 
 input:not(input[type="submit"]):hover::placeholder {
@@ -129,7 +123,7 @@ input:not(input[type="submit"])::placeholder {
   border: 2px solid var(--gold);
   background-color: var(--bg);
   border-radius: 5px;
-  color: var(--gold);
+  color: var(--text-color);
   margin: 0.5rem;
 }
 
@@ -151,10 +145,6 @@ input:not(input[type="submit"])::placeholder {
 
 .contact-info {
   width: 30%;
-}
-
-.form {
-  width: 45%;
 }
 
 .info {
