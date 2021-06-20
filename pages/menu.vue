@@ -15,6 +15,9 @@
     <GoldenHorizontalRule/>
     <Chefs/>
     <GoldenHorizontalRule/>
+    <Drinks/>
+    <GoldenHorizontalRule/>
+    <GoldenHorizontalRule/>
 
   </div>
 </template>
