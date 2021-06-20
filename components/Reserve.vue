@@ -8,10 +8,12 @@
       name="contact-form"
       method="POST"
       data-netlify="true"
+      netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact-form" />
       <b-row>
-        <b-form-datepicker id="example-datepicker" :placeholder="$t('reserve.select_date')" class="ml-4 mr-2 mb-2 p-2"></b-form-datepicker>
+        <b-form-datepicker id="example-datepicker" v-model="date" :placeholder="$t('reserve.select_date')" class="ml-4 mr-2 mb-2 p-2"></b-form-datepicker>
+        <input type="hidden" name="date" id="date" :value="date">
       </b-row>
       <b-row>
         <b-col>
@@ -76,6 +78,11 @@
 import index from "../pages/index.vue";
 export default {
   components: { index },
+  data() {
+    return {
+      value: ''
+    }
+  }
 };
 </script>
 
