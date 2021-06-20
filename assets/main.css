@@ -68,7 +68,7 @@ input:focus {
 
 .dark-mode {
     --text-color: hsl(0, 0%, 90%);
-    --text-color-secondary: hsl(0, 0%, 90%);
+    --text-color-secondary: hsl(0, 0%, 80%);
     --gold: hsl(45, 50%, 55%);
     --bg: hsl(205, 60%, 10%);
     --bg-secondary: hsl(205, 60%, 15%);

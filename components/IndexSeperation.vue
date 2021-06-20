@@ -26,15 +26,17 @@
     <b-row>
       <b-col>
         <p class="flx-center mb-3">
-          <nuxt-link :to="localePath('blog')">Check out</nuxt-link>&nbsp;more
-          special recipes or special dishes on our blog.
+          <nuxt-link :to="localePath('blog')">
+            {{ $t("seperation.home.check_out") }}
+          </nuxt-link>
+          &nbsp;{{ $t("seperation.home.more") }}.
         </p>
       </b-col>
     </b-row>
     <b-row>
-        <b-col>
-            <br>
-        </b-col>
+      <b-col>
+        <br />
+      </b-col>
     </b-row>
   </b-container>
 </template>

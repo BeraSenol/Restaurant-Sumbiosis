@@ -42,7 +42,9 @@ export default {
     seperation: {
         home: {
             menu_title: "International Menu",
-            menu_subtitle: "Brought by our International Team"
+            menu_subtitle: "Brought by our International Team",
+            check_out: "Check out",
+            more: "more special recipes or special dishes on our blog"
         }
     },
     countries: {
@@ -191,5 +193,17 @@ export default {
         email: "Contact Email",
         message: "Message",
         submit: "Submit"
+    },
+    services: {
+        services: "Services",
+        birthday: "Birthday Party",
+        birthday_body: "Celebrate your birthday together with all your friends and family. For young and old!",
+        business: "Business Meeting",
+        business_body: "Host your next meeting or presentation while we take care of the rest. For big or smalls meetings!",
+        wedding: "Wedding Party",
+        wedding_body: "Mark your wedding in our restaurant to make it an unforgetable day. For ever and ever!",
+        meet_the_chefs: "Meet The Chefs",
+        owner: "Owner",
+        head_chef: "Head Chef"
     }
 };

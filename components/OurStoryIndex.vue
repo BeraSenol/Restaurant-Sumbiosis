@@ -9,7 +9,7 @@
 
       <b-row>
         <b-col>
-          <h1>Welcome to Sumbiosis</h1>
+          <h1>{{$t("our_story.welcome") }}</h1>
         </b-col>
       </b-row>
       <b-row>

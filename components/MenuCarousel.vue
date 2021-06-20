@@ -393,9 +393,9 @@ export default {};
 }
 
 h1 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   font-family: Great-Vibes;
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--gold);
   text-shadow: 2px 1px var(--text-shadow);
 }

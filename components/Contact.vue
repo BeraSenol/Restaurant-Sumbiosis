@@ -3,11 +3,11 @@
     <div class="contact-info">
       <ul>
         <li>
-          <h3 class="mb-5 mt-2">{{ $t('contact.info') }}</h3>
+          <h3 class="mb-5 mt-2">{{ $t("contact.info") }}</h3>
         </li>
         <li>
           <p class="mb-5">
-            {{$t('contact.address')}}:
+            {{ $t("contact.address") }}:
             <a class="info" href="https://goo.gl/maps/TftP3TcZPnHNjV8F6">
               Elfde-Liniestraat 24, 3500 Hasselt
             </a>
@@ -15,7 +15,8 @@
         </li>
         <li>
           <p class="mb-5">
-            {{$t('contact.phone')}}: <a class="info" href="tel:011775555">+32 11 77 55 55</a>
+            {{ $t("contact.phone") }}:
+            <a class="info" href="tel:011775555">+32 11 77 55 55</a>
           </p>
         </li>
         <li>
@@ -38,7 +39,12 @@
       <input type="hidden" name="form-name" value="reservation-form" />
       <b-row>
         <b-col>
-          <input type="text" name="name" id="name" :placeholder="$t('contact.name')" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            :placeholder="$t('contact.name')"
+          />
         </b-col>
         <b-col>
           <input
@@ -71,7 +77,12 @@
       </b-row>
       <b-row>
         <b-col class="flx-center">
-          <input class="mt-3 px-3" type="submit" id="submit" :value="$t('contact.submit')" />
+          <input
+            class="mt-3 px-3"
+            type="submit"
+            id="submit"
+            :value="$t('contact.submit')"
+          />
         </b-col>
       </b-row>
     </form>
@@ -99,7 +110,6 @@ input:not(input[type="submit"]) {
   margin: 0.5rem;
   border-radius: 0.25rem;
   padding: 1rem;
-
 }
 
 input:not(input[type="submit"]):hover::placeholder {

@@ -1,14 +1,26 @@
 <template>
-  <LandingSection
-    source="our-story.jpg"
-    :title="$t('landing.title.our_story')"
+  <div>
+    <LandingSection
+      source="our-story.jpg"
+      :title="$t('landing.title.our_story')"
+      :subtitle="$t('landing.subtitle.our_story')"
+    />
+    <GoldenHorizontalRule />
 
-    :subtitle="$t('landing.subtitle.our_story')"
-  />
+    <OurStoryIndex />
+    <GoldenHorizontalRule />
+    <Services />
+    <GoldenHorizontalRule />
+    <Chefs />
+    <GoldenHorizontalRule />
+    <GoldenHorizontalRule />
+  </div>
 </template>
 
 <script>
+import Services from "../components/Services.vue";
 export default {
+  components: { Services },
   data() {
     return {
       title: "Our Story",

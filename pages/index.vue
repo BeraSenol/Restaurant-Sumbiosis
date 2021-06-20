@@ -1,15 +1,26 @@
 <template>
   <main>
-    <LandingSectionIndex source="index.jpg" title="Sumbiosis" :subtitle="$t('landing.subtitle.home')"/>
-    <GoldenHorizontalRule/>
-    <OurStoryIndex/>
-    <GoldenHorizontalRule/>
-    <IndexSeperation :title="$t('seperation.home.menu_title')" :subtitle="$t('seperation.home.menu_subtitle')"/>
-    <MenuCarousel/>
-    <GoldenHorizontalRule/>
+    <LandingSectionIndex
+      source="index.jpg"
+      title="Sumbiosis"
+      :subtitle="$t('landing.subtitle.home')"
+    />
+    <GoldenHorizontalRule />
+    <OurStoryIndex />
+    <GoldenHorizontalRule />
+    <IndexSeperation
+      :title="$t('seperation.home.menu_title')"
+      :subtitle="$t('seperation.home.menu_subtitle')"
+    />
+    <GoldenHorizontalRule />
+    <MenuCarousel />
+    <GoldenHorizontalRule />
+
+    <Chefs />
+    <GoldenHorizontalRule />
     <Contact />
-    <GoldenHorizontalRule/>
-    <BlogIndex/>
+    <GoldenHorizontalRule />
+    <GoldenHorizontalRule />
   </main>
 </template>
 
@@ -29,5 +40,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
