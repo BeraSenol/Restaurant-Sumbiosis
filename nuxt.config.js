@@ -54,7 +54,8 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/bootstrap
         "bootstrap-vue/nuxt",
-        "nuxt-i18n"
+        "nuxt-i18n",
+        "@nuxt/content"
     ],
     // Nuxt-i18n config: https://i18n.nuxtjs.org/
     i18n: {

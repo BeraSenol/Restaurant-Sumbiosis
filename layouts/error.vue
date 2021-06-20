@@ -1,7 +1,11 @@
 <template>
   <div>
     <NavCover />
-    <h1>error</h1>
+    <b-row>
+      <b-col class="text-center">
+        <h1>Error</h1>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
