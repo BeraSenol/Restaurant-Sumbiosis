@@ -333,5 +333,10 @@ p {
     src: url("~/static/fonts/Bellefair.ttf");
 }
 
+@font-face {
+    font-family: DIN;
+    src: url("~/static/fonts/DIN.ttf");
+}
+
 
 /* Queries */

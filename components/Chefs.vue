@@ -60,6 +60,7 @@ export default {};
 
 h5, h6 {
     text-align: left;
+    font-family: DIN;
 }
 
 h6 {

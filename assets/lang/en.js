@@ -205,5 +205,22 @@ export default {
         meet_the_chefs: "Meet The Chefs",
         owner: "Owner",
         head_chef: "Head Chef"
+    },
+    drinks: {
+        hot_chocolate: "Hot Chocolate",
+        black_tea: "Black Tea",
+        green_tea: "Green Tea",
+        chai_tea: "Chai Tea",
+        oolong_tea: "Oolong Tea",
+        mocha: "Mocha",
+        white_wine: "White Wine",
+        rose_wine: "Rosé Wine",
+        red_wine: "Red Wine",
+        coffee: "Coffee",
+        hot_drinks: "Hot Drinks",
+        beers: "Beers",
+        wine: "Wine",
+        strong_liqueur: "Strong Liqueur",
+        beverage: "Beverage"
     }
 };

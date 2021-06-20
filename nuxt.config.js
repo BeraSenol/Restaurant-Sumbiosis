@@ -41,7 +41,9 @@ export default {
                 "faBeer",
                 "faCocktail",
                 "faWineGlass",
-                "faCoffee"
+                "faCoffee",
+                "faMugHot",
+                "faGlassWhiskey"
             ],
             regular: ["faClock", "faEnvelope"],
             brands: ["faFacebookSquare"]

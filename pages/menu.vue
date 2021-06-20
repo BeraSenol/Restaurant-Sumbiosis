@@ -11,7 +11,7 @@
       :subtitle="$t('seperation.home.menu_subtitle')"
     />
     <GoldenHorizontalRule/>
-    <MenuCarouselLarge />
+    <MenuCarousel />
     <GoldenHorizontalRule/>
     <Chefs/>
     <GoldenHorizontalRule/>

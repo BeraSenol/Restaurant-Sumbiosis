@@ -15,11 +15,14 @@
     <GoldenHorizontalRule />
     <MenuCarousel />
     <GoldenHorizontalRule />
+    <Services/>
+    <GoldenHorizontalRule />
 
     <Chefs />
     <GoldenHorizontalRule />
     <Contact />
-    <GoldenHorizontalRule />
+    
+    <GoldenHorizontalRule/>
     <GoldenHorizontalRule />
   </main>
 </template>
@@ -34,6 +37,7 @@ export default {
   head() {
     return {
       title: this.title,
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
     };
   },
 };

@@ -25,7 +25,7 @@
     </b-row>
     <b-row>
       <b-col>
-        <p class="flx-center mb-3">
+        <p class="flx-center mb-4">
           <nuxt-link :to="localePath('blog')">
             {{ $t("seperation.home.check_out") }}
           </nuxt-link>
@@ -68,6 +68,7 @@ h2 {
   font-size: 2rem;
   margin-top: 2rem;
 }
+
 
 #icon {
   color: var(--gold);
