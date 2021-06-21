@@ -5,12 +5,12 @@
     </div>
     <form
       class="form"
-      name="contact-form"
+      name="reservation-form"
       method="POST"
       data-netlify="true"
       netlify-honeypot="bot-field"
     >
-      <input type="hidden" name="form-name" value="contact-form" />
+      <input type="hidden" name="form-name" value="reservation-form" />
       <b-row>
         <b-form-datepicker id="example-datepicker" v-model="date" :placeholder="$t('reserve.select_date')" class="ml-4 mr-2 mb-2 p-2"></b-form-datepicker>
         <input type="hidden" name="date" id="date" :value="date">
