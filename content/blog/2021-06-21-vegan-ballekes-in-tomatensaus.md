@@ -9,31 +9,29 @@ description: Recept
 
 ## ***VEGAN BALLEKES IN TOMATENSAUS MET GROENTENSTOEMP***
 
-
-
 ***Ingrediënten:***
 
+2 doosjes vegan ballekes garden gourmet
 
+1 sjalot
 
-* 2 doosjes vegan ballekes garden gourmet
-* 1 sjalot
-* 1 teentje look
-* 1 fles (440ml) tomatenpassata
-* 1 blokje groentenbouillon
-* (evt- klein scheutje sojasaus)
+1 teentje look
 
- 
+1 fles (440ml) tomatenpassata
 
-* 4 grote aardappelen (bvb bintjes)
-* 1/2 knolselder
-* 1 preistengel
-* Scheutje olijfolie
+1 blokje groentenbouillon
 
- 
+(evt- klein scheutje sojasaus)
+
+4 grote aardappelen (bvb bintjes)
+
+1/2 knolselder
+
+1 preistengel
+
+Scheutje olijfolie
 
 ***Bereiding:***
-
- 
 
 Schil de aardappelen in snij in 4
 
@@ -53,8 +51,6 @@ Voeg deze toe en “stoemp” alles fijn.
 
 Je zal zijn dat extra vetstof niet nodig is, de knoselder zorgt voor voldoende smeuïgheid.
 
- 
-
 Snipper de sjalot fijn
 
 schil het lookteentje, verwijder het groene binnenste en snij fijn
@@ -66,8 +62,6 @@ voeg de tomatenpassata toe & verkruimel het blokje groentenbouillon hierin
 laat ff inkoken
 
 (werk evt. af met een scheutje sojasaus voor extra “swung”)
-
- 
 
 Bak de balletjes aan in een pannetje gedurende ongeveer 7 minuten.
 
