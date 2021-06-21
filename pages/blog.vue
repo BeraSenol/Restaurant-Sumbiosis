@@ -64,8 +64,9 @@ p {
   color: var(--gold);
   position: absolute;
   padding: 0.5rem;
-  top: 8%;
+  top: 7.5%;
   left: 11%;
+  border-radius: 0.25rem;
   background-color: var(--bg-secondary);
 }
 
