@@ -11,7 +11,15 @@
     <b-container id="blog-container">
       <b-row class="py-4 text-center">
         <b-col cols="4" v-for="post of posts" :key="post.slug">
-          <NuxtLink :to="post.slug">{{ post.title }} abc</NuxtLink>
+          <div class="blog-card">
+            <NuxtLink :to="post.slug">
+              <b-img width="300" class="mt-3 img" :src="post.image"></b-img>
+              <p class="mb-0 description text-left">
+                {{ post.description }}
+              </p>
+              <p class="pl-4 text-left">{{ post.title }}</p>
+            </NuxtLink>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -45,6 +53,24 @@ export default {
 <style scoped>
 #blog-container {
   min-height: 100px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--gold);
+  position: absolute;
+  padding: 0.5rem;
+  top: 8%;
+  left: 11%;
+  background-color: var(--bg-secondary);
+}
+
+.img {
+  position: relative;
 }
 
 a {
