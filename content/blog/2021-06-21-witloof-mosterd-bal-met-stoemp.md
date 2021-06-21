@@ -11,15 +11,19 @@ description: News
 
 ##### INGREDIËNTEN VOOR 5 PERSONEN
 
-* 1 kg aardappelen (Belgische bintjes)
-* 3 stronkjes witlof
-* boter
-* peper en zout
-* 2 el graanmosterd
+1 kg aardappelen (Belgische bintjes)
+
+3 stronkjes witlof
+
+boter
+
+peper en zout
+
+2 el graanmosterd
 
 ##### BENODIGDHEDEN
 
-* pureestamper 
+pureestamper 
 
 ##### *BEREIDING*
 
@@ -31,33 +35,41 @@ description: News
 6. Voeg een klont boter toe en kruid naar smaak met peper en zout.
 7. Doe er het gebakken witlof en de mosterd bij en meng goed.
 
- 
-
 ![](https://ballsnglory.be/media/5mwfc5nh/witloofstoemp.jpg)
 
 ## GEHAKTBALLEN & VLEESJUS
 
 ##### INGREDIËNTEN VOOR 25 BALLEN 
 
-* 3,75 kg varkensgehakt (evt. recept zie onder)
-* 200 g paneermeel natuur
-* 4 uien, fijngesnipperd
-* 4 el natuurazij
-* 2 flesje trappistenbier
-* 3 el bruine suiker
-* een paar takjes tijm
-* 2 kruidnagels
-* 8 jeneverbessen
-* een takje marjolein
-* 8 dl runderbouillon
-* 5 el luikse stroop
-* peper en zout
+3,75 kg varkensgehakt (evt. recept zie onder)
 
- 
+200 g paneermeel natuur
+
+4 uien, fijngesnipperd
+
+4 el natuurazij
+
+2 flesje trappistenbier
+
+3 el bruine suiker
+
+een paar takjes tijm
+
+2 kruidnagels
+
+8 jeneverbessen
+
+een takje marjolein
+
+8 dl runderbouillon
+
+5 el luikse stroop
+
+peper en zout
 
 ##### BENODIGDHEDEN 
 
-* Oven 
+Oven 
 
 ##### BEREIDING
 
@@ -71,8 +83,6 @@ description: News
 8. van de molen en een snuf zout. Hou de saus warm.
 9. Zet de ballen in oven en laat ze verder garen voor ongeveer 20 minuten.
 
- 
-
 TIP: je kan deze ballen in een groot aantal maken en nadien invriezen in jouw diepvries voor meerdere glory-momenten!
 
 ## DE VULLING 
@@ -81,22 +91,25 @@ Voor wie zin heeft in een uitdaging ;) 
 
 ##### INGREDIËNTEN VOOR 25 VULLINGEN 
 
-* 75 g boter
-* 100 g bloem
-* 500 ml melk
-* peper en zout
-* 200g Belgische abdijkaas (bvb postelkaas)blaadjes gelatine (optioneel)
-* 1 eidooier
-* 30 g room
-* olie
+75 g boter
 
- 
+100 g bloem
+
+500 ml melk
+
+peper en zout
+
+200g Belgische abdijkaas (bvb postelkaas)blaadjes gelatine (optioneel)
+
+1 eidooier
+
+30 g room
+
+olie
 
 ##### BENODIGDHEDEN 
 
-* Siliconen mal met halfronde vorm 
-
- 
+Siliconen mal met halfronde vorm 
 
 ##### BEREIDING 
 
@@ -107,8 +120,6 @@ Voor wie zin heeft in een uitdaging ;) 
 5. Bestrijk een ovenschaal met olijfolie, stort de vulling erin en laat afkoelen in de koelkast.
 6. Maak daarna van de vulling porties van ongeveer 40 g en vries die in.
 7. Stop een diepgevroren vullingbolletje in een gehaktbal.
-
- 
 
 Terwijl de bal gaart in de oven wordt de vulling weer lekker vloeibaar! 
 
