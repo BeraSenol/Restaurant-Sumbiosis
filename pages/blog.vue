@@ -7,10 +7,16 @@
       :title="$t('landing.title.blog')"
       :subtitle="$t('landing.subtitle.blog')"
     />
-    <div>
-      <h2>{{ post.title }}</h2>
-      <nuxt-content :document="post" />
-    </div>
+    <GoldenHorizontalRule />
+    <b-container id="blog-container">
+      <b-row class="py-4 text-center">
+        <b-col cols="4" v-for="post of posts" :key="post.slug">
+          <NuxtLink :to="post.slug">{{ post.title }} abc</NuxtLink>
+        </b-col>
+      </b-row>
+    </b-container>
+    <GoldenHorizontalRule />
+    <GoldenHorizontalRule />
   </div>
 </template>
 
@@ -26,21 +32,41 @@ export default {
       title: this.title,
     };
   },
-  async asyncData({ $content, params, error }) {
-    let post;
-    try {
-      post = await $content("blog", params.slug).fetch();
-      // OR const article = await $content(`articles/${params.slug}`).fetch()
-    } catch (e) {
-      error({ message: "Blog Post not found" });
-    }
+  async asyncData({ $content }) {
+    const posts = await $content("blog").fetch();
 
     return {
-      post,
+      posts,
     };
   },
 };
 </script>
 
-<style>
+<style scoped>
+#blog-container {
+  min-height: 100px;
+}
+
+a {
+  color: var(--text-color);
+  transition: var(--transition-color);
+}
+
+a:link {
+  color: var(--text-color);
+}
+
+a:visited {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--gold);
+  text-decoration: none;
+  transition: var(--transition-color);
+}
+
+a:active {
+  color: var(--gold);
+}
 </style>
