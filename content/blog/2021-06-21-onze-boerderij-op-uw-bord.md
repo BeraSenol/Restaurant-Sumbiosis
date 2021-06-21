@@ -9,11 +9,9 @@ description: News
 
 De herfst is een hoogseizoen voor iedere chef, kweet-nie-oe-fier op ons nieuwe menu: we brengen de boerderij naar de stad samen met onze lokale farmers zoals boerin Mieke.
 
-![Schermafbeelding 2020 10 05 Om 11.14.24](https://ballsnglory.be/media/dcrbzvdz/schermafbeelding-2020-10-05-om-11-14-24.png?mode=max&quality=85&width=500&height=1000&rnd=132463943797570000)Butternutsalade
+![Schermafbeelding 2020 10 05 Om 11.14.24](https://ballsnglory.be/media/dcrbzvdz/schermafbeelding-2020-10-05-om-11-14-24.png?mode=max&quality=85&width=500&height=1000&rnd=132463943797570000)
 
 ## **SWEET LITTLE PUMPKIN**
-
- 
 
 Jupla: daar zijn de pompoenen! We geven flespompoenen een korstje van polenta, & voila: tarwesalade met butternut.\
  \
@@ -21,7 +19,7 @@ Butternut is iets steviger van textuur dan klassieke pompoen & zijn nootachtige 
 \
 We geven het toe: het korstje van polenta... dat idee hebben we van Ottolenghi.
 
-![Schermafbeelding 2020 10 05 Om 11.14.32](https://ballsnglory.be/media/yxfhtvoa/schermafbeelding-2020-10-05-om-11-14-32.png?mode=max&quality=85&width=500&height=1000&rnd=132463945308230000)Vol-au-ballekes & ballekes met tomatensaus
+![Schermafbeelding 2020 10 05 Om 11.14.32](https://ballsnglory.be/media/yxfhtvoa/schermafbeelding-2020-10-05-om-11-14-32.png?mode=max&quality=85&width=500&height=1000&rnd=132463945308230000)
 
 ## **BALLEKEEEEEES......**
 
@@ -33,7 +31,7 @@ say no more.
 \
 [Ook verkrijgbaar via Deliveroo! ](https://deliveroo.be/nl-be/merken/balls-and-glory?utm_medium=social&utm_source=website&utm_campaign=Engage-Always_on-Remarket&utm_term=Fans-Brandpage-deliveroo-BENL&utm_content=Brandpage%20deliveroo-Sitelink-Engage)
 
-![Schermafbeelding 2020 10 05 Om 20.04.03](https://ballsnglory.be/media/3lzpoqji/schermafbeelding-2020-10-05-om-20-04-03.png?mode=max&quality=85&width=500&height=1000&rnd=132463946581730000)Onze schoonste, allerbeste boerin Mieke Verniest
+![Schermafbeelding 2020 10 05 Om 20.04.03](https://ballsnglory.be/media/3lzpoqji/schermafbeelding-2020-10-05-om-20-04-03.png?mode=max&quality=85&width=500&height=1000&rnd=132463946581730000)
 
 ## **GOESTING IN DE HERFST?**
 
@@ -43,11 +41,9 @@ De corona-periode gaf ons de tijd om de partnerships met onze boeren en partners
 \
 Of je nu veilig luncht of dineert in onze restaurants, voor het gemak van delivery kiest of je laat inspireren door Foodbag, we zijn er voor u.
 
- 
-
 [Bekijk ons herfstmenu! ](https://ballsnglory.be/media/zdvhxkx5/herfstmenu.pdf?utm_medium=email&utm_source=emailmarketing&utm_campaign=Contact-Farm_to_table-Remarket&utm_term=Fans-Herfstmenu-BENL&utm_content=Herfstmenu%20link%20mail-Sitelink-Contact)
 
-![Schermafbeelding 2020 10 05 Om 11.15.18](https://ballsnglory.be/media/rgqfy0g1/schermafbeelding-2020-10-05-om-11-15-18.png?mode=max&quality=85&width=500&height=1000&rnd=132463947379400000)Chilli cheezyyyyyy chicken bal met casareccia-pasta
+![Schermafbeelding 2020 10 05 Om 11.15.18](https://ballsnglory.be/media/rgqfy0g1/schermafbeelding-2020-10-05-om-11-15-18.png?mode=max&quality=85&width=500&height=1000&rnd=132463947379400000)
 
 ## **CHICKEN CHILLI CHEESE**
 
